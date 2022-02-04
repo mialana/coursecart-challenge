@@ -8,7 +8,7 @@ import Cart from './components/Cart'
 class App extends Component {
   render() {
     return (
-      <>
+      <div>
         <Nav />
         <div style={{
           width: '100%',
@@ -18,7 +18,7 @@ class App extends Component {
           <Courses />
           <Cart />
         </div>
-      </>
+      </div>
     );
   }
 }
