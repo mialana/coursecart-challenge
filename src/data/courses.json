@@ -2,23 +2,2360 @@
   {
     "dept": "CIS",
     "number": 110,
-    "title": "Introduction to Computer Programming (with Java, for Beginners",
-    "description": "Introduction to Computer Programming is the first course in our series introducing students to computer science. In this class you will learn the fundamentals of computer programming in Java, with emphasis on applications in science and engineering. You will also learn about the broader field of computer science and algorithmic thinking, the fundamental approach that computer scientists take to solving problems."
+    "title": "Introduction to Computer Programming",
+    "description": "Introduction to Computer Programming is the first course in our series introducing students to computer science. In this class you will learn the fundamentals of computer programming in Java, with emphasis on applications in science and engineering. You will also learn about the broader field of computer science and algorithmic thinking, the fundamental approach that computer scientists take to solving problems.",
+    "id": "CIS-110",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.69,
+    "instructor_quality": 2.677,
+    "difficulty": 3.151,
+    "work_required": 3.385,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      },
+      {
+        "id": "MFR@SAS",
+        "code": "MFR",
+        "school": "SAS",
+        "semester": "2021C",
+        "name": "Formal Reasoning Course"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-110-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 175,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "M",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "W",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 8358,
+            "name": "Eric Noel Fouh Mbindi"
+          },
+          {
+            "id": 14943,
+            "name": "Harry S Smith"
+          }
+        ],
+        "course_quality": 2.816,
+        "instructor_quality": 2.926,
+        "difficulty": 3.25,
+        "work_required": 3.484,
+        "associated_sections": [
+          {
+            "id": "CIS-110-207",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-219",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-216",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-218",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-222",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-201",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-217",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-210",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-213",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-206",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-208",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-209",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-214",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-215",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-203",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-204",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-205",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-221",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-202",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-220",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-211",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-212",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-002",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 175,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "M",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "W",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 8358,
+            "name": "Eric Noel Fouh Mbindi"
+          },
+          {
+            "id": 14943,
+            "name": "Harry S Smith"
+          }
+        ],
+        "course_quality": 2.816,
+        "instructor_quality": 2.926,
+        "difficulty": 3.25,
+        "work_required": 3.484,
+        "associated_sections": [
+          {
+            "id": "CIS-110-207",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-219",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-216",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-218",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-222",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-201",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-217",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-210",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-213",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-206",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-208",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-209",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-214",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-215",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-203",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-204",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-205",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-221",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-202",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-220",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-211",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-110-212",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-201",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 15.3,
+            "end": 17.3,
+            "room": "LRSM 112B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-202",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 17.15,
+            "end": 19.15,
+            "room": "TOWN 309"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-203",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 19.0,
+            "end": 21.0,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-204",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 12.0,
+            "end": 14.0,
+            "room": "FAGN 103"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-205",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 13.45,
+            "end": 15.45,
+            "room": "BENN 406"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-206",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 15.3,
+            "end": 17.3,
+            "room": "DRLB 4E9"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-207",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 17.15,
+            "end": 19.15,
+            "room": "DRLB 3N6"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-208",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "DRLB 2C4"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-210",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "TOWN 315"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-211",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "TOWN 315"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-212",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "TOWN 315"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-214",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 10.15,
+            "end": 11.15,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-215",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "DRLB 4N30"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-217",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "DRLB 4N30"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-218",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "DRLB 2C8"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-219",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "DRLB 4N30"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-221",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 20.3,
+            "end": 21.3,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-110-222",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 19.0,
+            "end": 21.0,
+            "room": "TOWN 307"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-110-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-110-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 120,
     "title": "Programming Languages and Techniques I",
-    "description": "A fast-paced introduction to the fundamental concepts of programming and software design.  This course assumes some previous programming experience, at the level of a high school computer science class or CIS110.  (If you got at least 4 in the AP Computer Science A or AB exam, you will do great.)  No specific programming language background is assumed: basic experience with any language (for instance Java, C, C++, VB, Python, Perl, or Scheme) is fine.  If you have never programmed before, you should take CIS 110 first."
+    "description": "A fast-paced introduction to the fundamental concepts of programming and software design. This course assumes some previous programming experience, at the level of a high school computer science class or CIS110. (If you got at least 4 in the AP Computer Science A or AB exam, you will do great.) No specific programming language background is assumed: basic experience with any language (for instance Java, C, C++, VB, Python, Perl, or Scheme) is fine. If you have never programmed before, you should take CIS 110 first.",
+    "id": "CIS-120",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.798,
+    "instructor_quality": 2.844,
+    "difficulty": 3.051,
+    "work_required": 3.374,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      },
+      {
+        "id": "MFR@SAS",
+        "code": "MFR",
+        "school": "SAS",
+        "semester": "2021C",
+        "name": "Formal Reasoning Course"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-120-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 240,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 10.15,
+            "end": 11.15,
+            "room": "STIT B6"
+          },
+          {
+            "day": "M",
+            "start": 10.15,
+            "end": 11.15,
+            "room": "STIT B6"
+          },
+          {
+            "day": "W",
+            "start": 10.15,
+            "end": 11.15,
+            "room": "STIT B6"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 6,
+            "name": "Swapneel Sheth"
+          },
+          {
+            "id": 7,
+            "name": "Stephan A. Zdancewic"
+          }
+        ],
+        "course_quality": 2.93,
+        "instructor_quality": 3.158,
+        "difficulty": 3.02,
+        "work_required": 3.333,
+        "associated_sections": [
+          {
+            "id": "CIS-120-201",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-202",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-203",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-205",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-208",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-215",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-217",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-221",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-222",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-207",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-209",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-214",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-219",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-220",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-210",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-213",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-218",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-206",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-212",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-216",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-204",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-211",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-002",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 240,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "STIT B6"
+          },
+          {
+            "day": "M",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "STIT B6"
+          },
+          {
+            "day": "W",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "STIT B6"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 6,
+            "name": "Swapneel Sheth"
+          },
+          {
+            "id": 7,
+            "name": "Stephan A. Zdancewic"
+          }
+        ],
+        "course_quality": 2.93,
+        "instructor_quality": 3.158,
+        "difficulty": 3.02,
+        "work_required": 3.333,
+        "associated_sections": [
+          {
+            "id": "CIS-120-201",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-202",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-203",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-205",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-208",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-215",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-217",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-221",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-222",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-207",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-209",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-214",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-219",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-220",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-210",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-213",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-218",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-206",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-212",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-216",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-204",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-120-211",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-201",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-202",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-203",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-204",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-205",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-206",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-207",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-208",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-209",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-210",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-211",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-212",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-213",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-214",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-215",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-216",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-217",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-218",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-219",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-220",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 20.3,
+            "end": 21.3,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-120-221",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 22,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 20.3,
+            "end": 21.3,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-120-002",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-120-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 121,
-    "title": "Programming Languages and Techniques I",
+    "title": "Programming Languages and Techniques II",
     "prereqs": ["CIS 120", "CIS 160"],
-    "description": "This is a course about Algorithms and Data Structures using the JAVA programming language. We introduce the basic concepts about complexity of an algorithm and methods on how to compute the running time of algorithms. Then, we describe data structures like stacks, queues, maps, trees, and graphs, and we construct efficient algorithms based on these representations. The course builds upon existing implementations of basic data structures in JAVA and extends them for the structures like trees, studying the performance of operations on such structures, and their efficiency when used in real-world applications. A large project introducing students to the challenges of software engineering concludes the course."
+    "description": "This is a course about Algorithms and Data Structures using the JAVA programming language. We introduce the basic concepts about complexity of an algorithm and methods on how to compute the running time of algorithms. Then, we describe data structures like stacks, queues, maps, trees, and graphs, and we construct efficient algorithms based on these representations. The course builds upon existing implementations of basic data structures in JAVA and extends them for the structures like trees, studying the performance of operations on such structures, and theiefficiency when used in real-world applications. A large project introducing students to the challenges of software engineering concludes the course.",
+    "id": "CIS-121",
+    "semester": "2021C",
+    "prerequisites": "CIS 120, 160",
+    "course_quality": 2.638,
+    "instructor_quality": 2.665,
+    "difficulty": 3.381,
+    "work_required": 3.509,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-121-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 275,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 10.15,
+            "end": 11.45,
+            "room": "MEYH B1"
+          },
+          {
+            "day": "T",
+            "start": 10.15,
+            "end": 11.45,
+            "room": "MEYH B1"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 1,
+            "name": "Arvind Bhusnurmath"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-214",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-202",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-211",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-208",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-212",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-207",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-209",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-213",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-201",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-203",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-206",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-210",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-215",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-204",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-205",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-121-216",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-201",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-202",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 13.45,
+            "end": 14.4,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-203",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-204",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-205",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-206",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-207",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-208",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-209",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-210",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-211",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-212",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "MOOR 100A"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-213",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-214",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 10.15,
+            "end": 11.15,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-215",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "MOOR 100B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-121-216",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MOOR 100C"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-121-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 125,
@@ -36,34 +2373,1452 @@
       "COGS 001",
       "PPE 140"
     ],
-    "description": "How do minds work? This course surveys a wide range of answers to this question from disciplines ranging from philosophy to neuroscience. The course devotes special attention to the use of simple computational and mathematical models. Topics include perception, learning, memory, decision making, emotion and consciousness."
+    "description": "How do minds work? This course surveys a wide range of answers to this question from disciplines ranging from philosophy to neuroscience. The course devotes special attention to the use of simple computational and mathematical models. Topics include perception, learning, memory, decision making, emotion and consciousness. The course shows how the different views from the parent disciplines interact and identifies some common themes among the theories that have been proposed. The course pays particular attention to the distinctive role of computation in such theories and provides an introduction to some of the main directions of current research in the field. It is a requirement for the BA in Cognitive Science, the BAS in Computer and Cognitive Science, and the minor in Cognitive Science, and it is recommended for students taking the dual degree in Computer and Cognitive Science.",
+    "id": "CIS-140",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.498,
+    "instructor_quality": 2.799,
+    "difficulty": 2.262,
+    "work_required": 2.247,
+    "crosslistings": ["PSYC-207", "PHIL-044", "COGS-001", "LING-105"],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      },
+      {
+        "id": "MFR@SAS",
+        "code": "MFR",
+        "school": "SAS",
+        "semester": "2021C",
+        "name": "Formal Reasoning Course"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-140-401",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 3,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "STIT B6"
+          },
+          {
+            "day": "T",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "STIT B6"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 76,
+            "name": "Charles Yang"
+          },
+          {
+            "id": 8370,
+            "name": "John C. Trueswell"
+          }
+        ],
+        "course_quality": 1.855,
+        "instructor_quality": 1.67,
+        "difficulty": 2.22,
+        "work_required": 2.075,
+        "associated_sections": [
+          {
+            "id": "CIS-140-409",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-408",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-402",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-404",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-410",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-403",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-405",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-411",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-406",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-140-407",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-402",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 1,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "WILL 316"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-403",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 0,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "MEYH B5"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 16382,
+            "name": "Ekaterina Yuryevna Goncharova"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-404",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 0,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "WILL 24"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 15177,
+            "name": "Maya S Davidov"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-405",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 0,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "WILL 305"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-406",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 1,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "WILL 4"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-407",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 0,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "WILL 316"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 15180,
+            "name": "Serena Zhang"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-408",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 0,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "WILL 5"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 16505,
+            "name": "Simrat Kaur Kohli"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-409",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 1,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "WILL 315"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 15185,
+            "name": "Catherine O Kolski"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-410",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 0,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "GLAB 102"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 16506,
+            "name": "Sylvia Y Zhao"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-140-411",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 0,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "WILL 316"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 15262,
+            "name": "VIctor Gomes"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-140-401",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 160,
-    "title": "Mathematical Foundations of Computer Scienc",
-    "description": "What are the basic mathematical concepts and techniques needed in computer science? This course provides an introduction to proof principles and logics, functions and relations, induction principles, combinatorics and graph theory, as well as a rigorous grounding in writing and reading mathematical proofs."
+    "title": "Mathematical Foundations of Computer Science",
+    "description": "What are the basic mathematical concepts and techniques needed in computer science? This course provides an introduction to proof principles and logics, functions and relations, induction principles, combinatorics and graph theory, as well as a rigorous grounding in writing and reading mathematical proofs.",
+    "id": "CIS-160",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.742,
+    "instructor_quality": 3.013,
+    "difficulty": 3.542,
+    "work_required": 3.479,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "MATH@SEAS",
+        "code": "MATH",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Mathematics"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-160-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 140,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 8.3,
+            "end": 10.0,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "T",
+            "start": 8.3,
+            "end": 10.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 11212,
+            "name": "Rajiv C Gandhi"
+          }
+        ],
+        "course_quality": 3.311,
+        "instructor_quality": 3.619,
+        "difficulty": 3.852,
+        "work_required": 3.892,
+        "associated_sections": [
+          {
+            "id": "CIS-160-201",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-212",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-215",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-211",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-213",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-214",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-218",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-205",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-207",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-203",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-206",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-208",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-209",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-210",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-217",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-202",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-204",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-216",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-002",
+        "status": "C",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 140,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 10.15,
+            "end": 11.45,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "T",
+            "start": 10.15,
+            "end": 11.45,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 11212,
+            "name": "Rajiv C Gandhi"
+          }
+        ],
+        "course_quality": 3.311,
+        "instructor_quality": 3.619,
+        "difficulty": 3.852,
+        "work_required": 3.892,
+        "associated_sections": [
+          {
+            "id": "CIS-160-201",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-212",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-215",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-211",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-213",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-214",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-218",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-205",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-207",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-203",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-206",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-208",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-209",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-210",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-217",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-202",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-204",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-160-216",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-201",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 10.15,
+            "end": 11.15,
+            "room": "LRSM 112B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-202",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 10.15,
+            "end": 11.15,
+            "room": "DRLB 3C8"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-203",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "MOOR 212"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-204",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "DRLB 3C8"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-205",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "DRLB 3N6"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-206",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 15,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "DRLB 2N36"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-207",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-208",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "DRLB 2C2"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-209",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-210",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 17.15,
+            "end": 18.15,
+            "room": "TOWN 307"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-211",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-212",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "TOWN 307"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-213",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 20.3,
+            "end": 21.3,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-214",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 20.3,
+            "end": 21.3,
+            "room": "TOWN 307"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-215",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 10.15,
+            "end": 11.15,
+            "room": "DRLB 3C4"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-216",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 12.0,
+            "end": 13.0,
+            "room": "DRLB 3C6"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-217",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "LRSM 112B"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-160-218",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 16,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 15.3,
+            "end": 16.3,
+            "room": "DRLB 3C6"
+          }
+        ],
+        "instructors": [],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-160-001",
+            "activity": "LEC"
+          },
+          {
+            "id": "CIS-160-002",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 190,
     "title": "C++ Programming",
     "prereqs": ["CIS 240"],
-    "description": "This course will provide an introduction to programming in C++ and is intended for students who already have some exposure to programming in another language such as Java. C++ provides the programmer with a greater level of control over machine resources and are commonly used in situations where low level access or performance are important. This course will illuminate the issues associated with programming at this level and will cover issues such as explicit memory management, pointers, the compilation process and debugging. The course will involve several programming projects which will provide students with the experience they need to program effectively in these languages. This course assumes programming experience equivalent to CIS 110, CIS 120 or ESE 112 as a prerequisite."
+    "description": "This course will provide an introduction to programming in C++ and is intended for students who already have some exposure to programming in another language such as Java, C++ provides the programmer with a greater level of control over machine resources and are commonly used in situations where low level access or performance are important. This course will illuminate the issues associated with programming at this level and will cover issues such as explicit memory management, pointers, the compilation process and debugging. The course will involve several programming projects which will provide students with the experience they need to program effectively in these languages. This course assumes programming experience equivalent to CIS 110, CIS 120 or ESE 112.",
+    "id": "CIS-190",
+    "semester": "2021C",
+    "prerequisites": "CIS 240",
+    "course_quality": 2.778,
+    "instructor_quality": 2.821,
+    "difficulty": 1.965,
+    "work_required": 2.021,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-190-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 0.5,
+        "capacity": 48,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 6,
+            "name": "Swapneel Sheth"
+          }
+        ],
+        "course_quality": 2.727,
+        "instructor_quality": 2.678,
+        "difficulty": 1.832,
+        "work_required": 1.797,
+        "associated_sections": [
+          {
+            "id": "CIS-190-201",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-190-201",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 48,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 8.3,
+            "end": 10.0,
+            "room": "TOWN 313"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 79,
+            "name": "Paul He"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-190-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 191,
     "title": "Using and Understanding Unix and Linux",
     "prereqs": ["CIS 110"],
-    "description": "Unix, in its many forms, runs much of the world's computer infrastructure, from cable modems and cell phones to the giant clusters that power Google and Amazon. This half-credit course provides a thorough introduction to Unix and Linux. Topics will range from critical basic skills such as examining and editing files, compiling programs and writing shell scripts, to higher level topics such as the architecture of Unix and its programming model.  The material learned is applicable to many classes, including CIS 240, CIS 331, CIS 341, CIS 371/372, and CIS 380."
+    "description": "Unix, in its many forms, runs much of the world's computer infrastructure, from cable modems and cell phones to the giant clusters that power Google and Amazon. This half-credit course provides a thorough introduction to Unix and Linux. Topics will range from critical basic skills such as examining and editing files, compiling programs and writing shell scripts, to higher level topics such as the architecture of Unix and its programming model.  The material learned is applicable to many classes, including CIS 240, CIS 331, CIS 341, CIS 371/372, and CIS 380.",
+    "id": "CIS-191",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.839,
+    "instructor_quality": 2.796,
+    "difficulty": 2.042,
+    "work_required": 2.236,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": []
   },
   {
     "dept": "CIS",
     "number": 192,
     "title": "Python Programming",
     "prereqs": ["CIS 120", "ESE 112"],
-    "description": "Python is an elegant, concise, and powerful language that is useful for tasks large and small. Python has quickly become a popular language for getting things done efficiently in many in all domains: scripting, systems programming, research tools, and web development. This course will provide an introduction to this modern high-level language using hands-on experience through programming assignments and a collaborative final application development project."
+    "description": "Python is an elegant, concise, and powerful language that is useful for tasks large and small. Python has quickly become a popular language for getting things done efficiently in many in all domains: scripting, systems programming, research tools, and web development. This course will provide an introduction to this modern high-level language using hands-on experience through programming assignments and a collaborative final application development project.",
+    "id": "CIS-192",
+    "semester": "2021C",
+    "prerequisites": "CIS 120 OR ESE 112",
+    "course_quality": 2.813,
+    "instructor_quality": 2.968,
+    "difficulty": 2.058,
+    "work_required": 2.216,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-192-001",
+        "status": "C",
+        "activity": "LEC",
+        "credits": 0.5,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 6,
+            "name": "Swapneel Sheth"
+          }
+        ],
+        "course_quality": 2.827,
+        "instructor_quality": 2.95,
+        "difficulty": 1.947,
+        "work_required": 2.041,
+        "associated_sections": [
+          {
+            "id": "CIS-192-202",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-192-201",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-192-201",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 8.3,
+            "end": 10.0,
+            "room": "TOWN 309"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 321,
+            "name": "Tong Liu"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-192-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-192-202",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 25,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 17.15,
+            "end": 18.45,
+            "room": "TOWN 319"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 81,
+            "name": "Arun K Kirubarajan"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-192-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
@@ -75,28 +3830,331 @@
   {
     "dept": "CIS",
     "number": 194,
-    "title": "Haskell Programmin",
-    "description": "Haskell is a high-level, purely functional programming language with a strong static type system and elegant mathematical underpinnings. It is being increasingly used in industry by organizations such as Facebook, AT&T, and NASA, along with several financial firms. We will explore the joys of functional programming, using Haskell as a vehicle. The aim of the course will be to allow you to use Haskell to easily and conveniently write practical programs. All are welcome, including those with no programming experience. Evaluation will be based on regular homework assignments and class participation."
+    "title": "Haskell Programming",
+    "description": "Haskell is a high-level, purely functional programming language with a strong static type system and elegant mathematical underpinnings. It is being increasingly used in industry by organizations such as Facebook, AT&T, and NASA, along with several financial firms. We will explore the joys of functional programming, using Haskell as a vehicle. The aim of the course will be to allow you to use Haskell to easily and conveniently write practical programs. All are welcome, including those with no programming experience. Evaluation will be based on regular homework assignments and class participation.",
+    "id": "CIS-194",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 3.081,
+    "instructor_quality": 3.09,
+    "difficulty": 2.934,
+    "work_required": 2.681,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": []
   },
   {
     "dept": "CIS",
     "number": 195,
-    "title": "Mobile App Developmen",
+    "title": "Mobile App Development",
     "prereqs": ["CIS 120"],
-    "description": "This project-oriented course is centered around application development on current mobile platforms like iOS and Android. Section 201 (iOS) will be taught in Swift, and cover iOS fundamentals such as app lifecycles, storyboarding, delegation, networking and usage of both native and external libraries. Section 202 (Android) will be taught in Java with XML and will cover Android fundamentals such as layout, app lifecycles and different APIs."
+    "description": "This project-oriented course is centered around application development on current mobile platforms like iOS and Android. The first half of the course will involve fundamentals of mobile app development, where students learn about mobile app lifecycles, event-based programming, efficient resource management, and how to interact with the range of sensors available on modern mobile devices. In the second half of the course, students work in teams to conceptualize and develop a significant mobile application. Creativity and originality are highly encouraged! Prerequisite: CIS 120 or previous programming experience.",
+    "id": "CIS-195",
+    "semester": "2021C",
+    "prerequisites": "CIS 120",
+    "course_quality": 2.812,
+    "instructor_quality": 2.861,
+    "difficulty": 2.246,
+    "work_required": 2.418,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-195-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 0.5,
+        "capacity": 35,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 6,
+            "name": "Swapneel Sheth"
+          }
+        ],
+        "course_quality": 2.879,
+        "instructor_quality": 2.939,
+        "difficulty": 2.251,
+        "work_required": 2.403,
+        "associated_sections": [
+          {
+            "id": "CIS-195-201",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-195-202",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-195-201",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 15,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 17.15,
+            "end": 18.45,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 16287,
+            "name": "Misty S Liao"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-195-001",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-195-202",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 20,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 8.3,
+            "end": 10.0,
+            "room": "TOWN 309"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 14813,
+            "name": "Jerry Z Ye"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-195-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 196,
     "title": "Ruby on Rails Web Development",
     "prereqs": ["CIS 120"],
-    "description": "This course will teach the fundamentals of developing web applications using Ruby on Rails, a rapid-development web framework developed by 37signals. The topics covered will start with Ruby, the language that powers Rails, and include all topics required to develop and deploy production-ready web applications with Rails. During the entire course, students will be working on a project of their own choosing which will develop as they learn additional concepts. Upon completion of the course this application will be deployed and accessible to the public. Students will be encouraged to continue building their applications even after the course given support from the Philadelphia Ruby community."
+    "description": "This course will teach the fundamentals of developing web applications using Ruby on Rails, a rapid-development web framework developed by Basecamp, and adopted by companies like Airbnb, GitHub, Bloomberg, CrunchBase, and Shopify. The first part of the course will focus on Ruby, the language that powers Rails. Along the way, students will also pick up essential skills such as git, bash, HTML and CSS. The second part will focus on Rails, the web framework and will include all topics required to develop and deploy production-ready modern web applications with Rails. Throughout the course, students will be working on a web application project of their own choosing. Upon completion of the course, this application will be deployed and made accessible to the public.",
+    "id": "CIS-196",
+    "semester": "2021C",
+    "prerequisites": "CIS 120",
+    "course_quality": 2.948,
+    "instructor_quality": 3.138,
+    "difficulty": 1.849,
+    "work_required": 2.027,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-196-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 0.5,
+        "capacity": 25,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 6,
+            "name": "Swapneel Sheth"
+          }
+        ],
+        "course_quality": 3.032,
+        "instructor_quality": 3.157,
+        "difficulty": 1.906,
+        "work_required": 2.092,
+        "associated_sections": [
+          {
+            "id": "CIS-196-201",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-196-201",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 25,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "T",
+            "start": 17.15,
+            "end": 18.45,
+            "room": "TOWN 311"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 15003,
+            "name": "Michael Colombo"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-196-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 197,
-    "title": "JavaScript",
-    "description": "This course provides an introduction to modern web development frameworks, techniques, and practices used to deliver robust client side applications on the web. The emphasis will be on developing JavaScript programs that run in the browser. Topics covered include the JavaScript language, web browser internals, the Document Object Model (DOM), HTML5, client-side app architecture and compile-to-JS languages like (Coffeescript, TypeScript, etc.). This course is most useful for students who have some programming and web development experience and want to develop moderate JavaScript skills to be able to build complex, interactive applications in the browser."
+    "title": "Javascript",
+    "description": "This course provides an introduction to modern web development frameworks, techniques, and practices used to deliver robust client side applications on the web. The emphasis will be on developing JavaScript programs that run in the browser. Topics covered include the JavaScript language, web browser internals, the Document Object Model (DOM), HTML5, client-side app architecture and compile-to-JS languages like (Coffeescript, TypeScript, etc.). This course is most useful for students who have some programming and web development experience and want to develop moderate JavaScript skills to be able to build complex, interactive applications in the browser.",
+    "id": "CIS-197",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.83,
+    "instructor_quality": 2.878,
+    "difficulty": 2.345,
+    "work_required": 2.462,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-197-001",
+        "status": "C",
+        "activity": "LEC",
+        "credits": 0.5,
+        "capacity": 25,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 19.0,
+            "end": 20.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 6,
+            "name": "Swapneel Sheth"
+          }
+        ],
+        "course_quality": 2.83,
+        "instructor_quality": 2.878,
+        "difficulty": 2.345,
+        "work_required": 2.462,
+        "associated_sections": [
+          {
+            "id": "CIS-197-201",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-197-201",
+        "status": "C",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 25,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 8.3,
+            "end": 10.0,
+            "room": "TOWN 315"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 15004,
+            "name": "Baile Chen"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-197-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
@@ -106,46 +4164,347 @@
       "CIS 120 or exposure functional programming",
       "CIS 240 (or exposure to C or C++)"
     ],
-    "description": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. In this course we will cover Rust as a practical alternative to C and C++ for systems programming. We will explore design choices and language features that allow Rust to have performance comparable to C and C++ without compromising speed or correctness.\nTopics covered include: the Rust type system (traits, generics), memory management (move semantics, borrowing, and lifetimes), functional programming (closures, higher order functions, ADTs), parallelism and concurrency, Rust for the web (WASM).\nEvaluation is based on regular homework assignments as well as a final project and class participation."
+    "description": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. In this course we will cover Rust as a practical alternative to C and C++ for systems programming. We will explore design choices and language features that allow Rust to have performance comparable to C and C++ without compromising speed or correctness.\nTopics covered include: the Rust type system (traits, generics), memory management (move semantics, borrowing, and lifetimes), functional programming (closures, higher order functions, ADTs), parallelism and concurrency, Rust for the web (WASM).\nEvaluation is based on regular homework assignments as well as a final project and class participation.",
+    "id": "CIS-198",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.895,
+    "instructor_quality": 3.09,
+    "difficulty": 2.583,
+    "work_required": 2.5,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": []
   },
   {
     "dept": "CIS",
     "number": 240,
-    "title": "Introduction to Computer Architectur",
+    "title": "Introduction to Computer Systems",
     "prereqs": ["CIS 110 or equivalent experience"],
-    "description": "You know how to program, but do you know how computers really work? How do millions of transistors come together to form a complete computing system? This bottom-up course begins with transistors and simple computer hardware structures, continues with low-level programming using primitive machine instructions, and finishes with an introduction to the C programming language. This course is a broad introduction to all aspects of computer systems architecture and serves as the foundation for subsequent computer systems courses, such as Digital Systems Organization and Design (CIS 371), Computer Operating Systems (CIS 380), and Compilers and Interpreters (CIS 341)."
+    "description": "You know how to program, but do you know how computers really work? How do millions of transistors come together to form a complete computing system? This bottom-up course begins with transistors and simple computer hardware structures, continues with low-level programming using primitive machine instructions, and finishes with an introduction to the C programming language. This course is a broad introduction to all aspects of computer systems architecture and serves as the foundation for subsequent computer systems courses, such as Digital Systems Organization and Design (CIS 371), Computer Operating Systems (CIS 380), and Compilers and Interpreters (CIS 341).",
+    "id": "CIS-240",
+    "semester": "2021C",
+    "prerequisites": "CIS 110",
+    "course_quality": 2.626,
+    "instructor_quality": 2.772,
+    "difficulty": 3.331,
+    "work_required": 3.509,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-240-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 250,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 17.15,
+            "end": 18.45,
+            "room": "COHN G17"
+          },
+          {
+            "day": "W",
+            "start": 17.15,
+            "end": 18.45,
+            "room": "COHN G17"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 90,
+            "name": "Camillo Jose Taylor"
+          },
+          {
+            "id": 16423,
+            "name": "Travis Q McGaha"
+          }
+        ],
+        "course_quality": 2.806,
+        "instructor_quality": 3.069,
+        "difficulty": 3.308,
+        "work_required": 3.497,
+        "associated_sections": []
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 261,
     "title": "Discrete Probability, Stochastic Processes, and Statistical Inference",
     "prereqs": ["CIS 160"],
-    "description": "The purpose of this course is to provide a 1 CU educational experience which tightly integrates the theory and applications of discrete probability, discrete stochastic processes, and discrete statistical inference in the study of computer science.\nThe intended audience for this class is both those students who are CS majors as well as those intending to be CS majors. Specifically, it will be assumed that the students will know: Set Theory, Mathematical Induction, Number Theory, Functions, Equivalence Relations, Partial-Order Relations, Combinatorics, and Graph Theory at the level currently covered in CIS 160. This course could be taken immediately following CIS 160. Computation and Programming will play an essential role in this course. The students will be expected to use the Maple programming environment in homework exercises which will include: numerical and symbolic computations, simulations, and graphical displays."
+    "description": "The purpose of this course is to provide a 1 CU educational experience which tightly integrates the theory and applications of discrete probability, discrete stochastic processes, and discrete statistical inference in the study of computer science. The intended audience for this class is both those students who are CS majors as well as those intending to be CS majors. Specifically, it will be assumed that the students will know: Set Theory, Mathematical Induction, Number Theory, Functions, Equivalence Relations, Partial-Order Relations, Combinatorics, and Graph Theory at the level currently covered in CIS 160. This course could be taken immediately following CIS 160. Computation and Programming will play an essential role in this course. The students will be expected to use the Maple programming environment in homework exercises which will include: numerical and symbolic computations, simulations, and graphical displays.",
+    "id": "CIS-261",
+    "semester": "2021C",
+    "prerequisites": "CIS 160",
+    "course_quality": 3.218,
+    "instructor_quality": 3.527,
+    "difficulty": 2.907,
+    "work_required": 2.236,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "MATH@SEAS",
+        "code": "MATH",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Mathematics"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-261-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 25,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "TOWN 307"
+          },
+          {
+            "day": "T",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "TOWN 307"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 78,
+            "name": "Max Mintz"
+          }
+        ],
+        "course_quality": 3.218,
+        "instructor_quality": 3.527,
+        "difficulty": 2.907,
+        "work_required": 2.236,
+        "associated_sections": [
+          {
+            "id": "CIS-261-201",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-261-201",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 25,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 13.45,
+            "end": 14.45,
+            "room": "TOWN 305"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 78,
+            "name": "Max Mintz"
+          }
+        ],
+        "course_quality": 3.218,
+        "instructor_quality": 3.527,
+        "difficulty": 2.907,
+        "work_required": 2.236,
+        "associated_sections": [
+          {
+            "id": "CIS-261-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 262,
     "title": "Automata, Computability, and Complexity",
     "prereqs": ["CIS 160"],
-    "description": "This course explores questions fundamental to computer science such as which problems cannot be solved by computers, can we formalize computing as a mathematical concept without relying upon the specifics of programming languages and computing platforms, and which problems can be solved efficiently. The topics include finite automata and regular languages, context-free grammars and pushdown automata, Turing machines and undecidability, tractability and NP-completeness. The course emphasizes rigorous mathematical reasoning as well as connections to practical computing problems such as text processing, parsing, XML query languages, and program verification."
+    "description": "This course explores questions fundamental to computer science such as which problems cannot be solved by computers, can we formalize computing as a mathematical concept without relying upon the specifics of programming languages and computing platforms, and which problems can be solved efficiently. The topics include finite automata and regular languages, context-free grammars and pushdown automata, Turing machines and undecidability, tractability and NP-completeness. The course emphasizes rigorous mathematical reasoning as well as connections to practical computing problems such as test processing, parsing, XML query languages, and program verification.",
+    "id": "CIS-262",
+    "semester": "2021C",
+    "prerequisites": "CIS 160",
+    "course_quality": 1.976,
+    "instructor_quality": 2.29,
+    "difficulty": 3.152,
+    "work_required": 2.778,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "MATH@SEAS",
+        "code": "MATH",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Mathematics"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-262-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 199,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 12.0,
+            "end": 13.3,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "T",
+            "start": 12.0,
+            "end": 13.3,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 106,
+            "name": "Anindya De"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-262-201",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-262-201",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 199,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "W",
+            "start": 12.0,
+            "end": 13.3,
+            "room": "COHN G17"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 106,
+            "name": "Anindya De"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": [
+          {
+            "id": "CIS-262-001",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
   {
     "dept": "CIS",
     "number": 320,
     "title": "Introduction to Algorithms",
     "prereqs": ["CIS 120", "CIS 121", "CIS 160", "CIS 262"],
-    "description": "How do you optimally encode a text file? How do you find shortest paths in a map? How do you design a communication network? How do you route data in a network? What are the limits of efficient computation? This course gives a comprehensive introduction to design and analysis of algorithms, and answers along the way to these and many other interesting computational questions. You will learn about problem-solving; advanced data structures such as universal hashing and red-black trees; advanced design and analysis techniques such as dynamic programming and amortized analysis; graph algorithms such as minimum spanning trees and network flows; NP-completeness theory; and approximation algorithms."
+    "description": "How do you optimally encode a text file? How do you find shortest paths in a map? How do you design a communication network? How do you route data in a network? What are the limits of efficient computation? This course gives a comprehensive introduction to design and analysis of algorithms, and answers along the way to these and many other interesting computational questions. You will learn about problem-solving; advanced data structures such as universal hashing and red-black trees; advanced design and analysis techniques such as dynamic programming and amortized analysis; graph algorithms such as minimum spanning trees and network flows; NP-completeness theory; and approximation algorithms.",
+    "id": "CIS-320",
+    "semester": "2021C",
+    "prerequisites": "CIS 120, 121, 160, 262",
+    "course_quality": 2.84,
+    "instructor_quality": 3.144,
+    "difficulty": 3.507,
+    "work_required": 3.137,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-320-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 150,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "W",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 124,
+            "name": "Aaron L Roth"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": []
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 331,
     "title": "Intro to Networks and Security",
     "prereqs": ["CIS 160", "CIS 240"],
-
     "description": "This course introduces principles and practices of computer and network security. We will cover basic concepts, threat models, and the security mindset; an introduction to cryptography and cryptographic protocols including encryption, authentication, message authentication codes, hash functions, public-key cryptography, and secure channels; an introduction to networks and network security including IP, TCP, routing, network protocols, web architecture, attacks, firewalls, and intrusion detection systems; an introduction to software security including defensive programming, memory protection, buffer overflows, and malware; and discuss broader issues and case studies such as privacy, security and the law, digital rights management, denial of service, and ethics."
   },
-
   {
     "dept": "CIS",
     "number": 334,
@@ -160,38 +4519,122 @@
     "prereqs": ["CIS 121", "CIS 240"],
     "description": "You know how to program, but do you know how to implement a programming language? In CIS341 you'll learn how to build a compiler. Topics covered include: lexical analysis, grammars and parsing, intermediate representations, syntax-directed translation, code generation, type checking, simple dataflow and control-flow analyses, and optimizations. Along the way, we study objects and inheritance, first-class functions (closures), data representation and runtime-support issues such as garbage collection. This is a challenging, implementation-oriented course in which students build a full compiler from a simple, typed object-oriented language to fully operational x86 assembly. The course projects are implemented using OCaml, but no knowledge of OCaml is assumed."
   },
-
   {
     "dept": "CIS",
     "number": 350,
     "title": "Software Design/Engineering",
     "prereqs": ["CIS 121"],
-    "description": "You know how to write a \"program\". But how do you create a software \"product\" as part of a team, with customers that have expectations of functionality and quality? This course introduces students to various tools (source control, automated build systems, programming environments, test automation, etc.) and processes (design, implementation, testing, and maintenance) that are used by professionals in the field of software engineering. Topics will include: software development lifecycle; agile and test-driven development; source control and continuous integration; requirements analysis; object-oriented design and testability; Android application development; software testing; refactoring; and software quality metrics."
+    "description": "You know how to write a \"program\". But how do you create a software \"product\" as part of a team, with customers that have expectations of functionality and quality? This course introduces students to various tools (source control, automated build systems, programming environments, test automation, etc.) and processes (design, implementation, testing, and maintenance) that are used by professionals in the field of software engineering. Topics will include: software development lifecycle; agile and test-driven development; source control and continuous integration; requirements analysis; object-oriented design and testability; Android application development; software testing; refactoring; and software quality metrics.",
+    "id": "CIS-350",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.887,
+    "instructor_quality": 3.132,
+    "difficulty": 1.985,
+    "work_required": 2.553,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": []
   },
   {
     "dept": "CIS",
     "number": 371,
     "title": "Computer Organization and Design",
     "prereqs": ["CIS 240"],
-    "description": "This is the second computer organization course and focuses on computer hardware design. Topics covered are: (1) basic digital system design including finite state machines, (2) instruction set design and simple RISC assembly programming, (3) quantitative evaluation of computer performance, (4) circuits for integer and floating-point arithmetic, (5) datapath and control, (6) micro-programming, (7) pipelining, (8) storage hierarchy and virtual memory, (9) input/output, (10) different forms of parallelism including instruction level parallelism, data-level parallelism using both vectors and message-passing multi-processors, and thread-level parallelism using shared memory multiprocessors. Basic cache coherence and synchronization."
+    "description": "This is the second computer organization course and focuses on computer hardware design. Topics covered are: (1) basic digital system design including finite state machines, (2) instruction set design and simple RISC assembly programming, (3) quantitative evaluation of computer performance, (4) circuits for integer and floating-point arithmetic, (5) datapath and control, (6) micro-programming, (7) pipelining, (8) storage hierarchy and virtual memory, (9) input/output, (10) different forms of parallelism including instruction level parallelism, data-level parallelism using both vectors and message-passing multi-processors, and thread-level parallelism using shared memory multiprocessors. Basic cache coherence and synchronization.",
+    "id": "CIS-371",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.654,
+    "instructor_quality": 2.888,
+    "difficulty": 3.264,
+    "work_required": 3.207,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": []
   },
-
   {
     "dept": "CIS",
     "number": 380,
     "title": "Computer Operating Systems",
     "prereqs": ["CIS 240"],
-    "description": "This course surveys methods and algorithms used in modern operating systems. Concurrent distributed operation is emphasized. The main topics covered are as follows: process synchronization; interprocess communications; concurrent/distributed programming languages; resource allocation and deadlock; virtual memory; protection and security; distributed operation; distributed data; performance evaluation."
+    "description": "This course surveys methods and algorithms used in modern operating systems. Concurrent distributed operation is emphasized. The main topics covered are as follows: process synchronization; interprocess communication; concurrent/distributed programming languages; resource allocation and deadlock; virtual memory; protection and security; distributed operation; distributed data; performance evalaution.",
+    "id": "CIS-380",
+    "semester": "2021C",
+    "prerequisites": "CIS 240",
+    "course_quality": 2.828,
+    "instructor_quality": 3.053,
+    "difficulty": 3.408,
+    "work_required": 3.586,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-380-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 199,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "T",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 94,
+            "name": "Boon Thau Loo"
+          }
+        ],
+        "course_quality": 2.914,
+        "instructor_quality": 3.065,
+        "difficulty": 3.628,
+        "work_required": 3.8,
+        "associated_sections": []
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 390,
     "title": "Robotics: Planning and Perception",
     "prereqs": ["CIS 121", "MATH 240 or equivalent"],
-    "description": "This introductory course will present basic principles of robotics with an emphasis  to computer science aspects. Algorithms for planning and perception will be studied and implemented on actual robots. While planning is a fundamental problem in artificial intelligence and decision making, robot planning refers to finding a path from A to B in the presence of obstacles and by complying with the kinematic constraints of the robot. Perception involves the estimation of the robot’s motion and path as well as the shape of the environment from sensors. In this course, algorithms will be implemented in Python on mobile platforms on ground and in the air. No prior experience with Python is needed but we require knowledge of data structures, linear algebra, and basic probability."
+    "description": "This introductory course will present basic principles of robotics with an emphasis  to computer science aspects. Algorithms for planning and perception will be studied and implemented on actual robots. While planning is a fundamental problem in artificial intelligence and decision making, robot planning refers to finding a path from A to B in the presence of obstacles and by complying with the kinematic constraints of the robot. Perception involves the estimation of the robot\u2019s motion and path as well as the shape of the environment from sensors. In this course, algorithms will be implemented in Python on mobile platforms on ground and in the air. No prior experience with Python is needed but we require knowledge of data structures, linear algebra, and basic probability."
   },
-
   {
     "dept": "CIS",
     "number": 398,
@@ -199,71 +4642,450 @@
     "prereqs": ["PHYS 151", "MATH 240", "MATH 312/314", "CIS 160", "CIS 262"],
     "description": "The purpose of this course is to introduce undergraduate students in computer science and engineering to quantum computers (QC) and quantum information science (QIS). This course is meant primarily for juniors and seniors in CIS. No prior knowledge of quantum mechanics (QM) is assumed."
   },
-
   {
     "dept": "CIS",
     "number": 400,
     "title": "Senior Project",
     "prereqs": ["Senior standing or permission of instructor"],
-
-    "description": "Design and implementation of a significant piece of work: software, hardware or theory. In addition, emphasis on technical writing and oral communication skills. Students must have an abstract of their Senior Project, which is approved and signed by a Project Adviser, at the end of the second week of Fall classes. The project continues during two semesters; students must enroll in CIS 401 during the second semester. At the end of the first semester, students are required to submit an intermediate report and give a class presentation describing their project and progress. Grades are based on technical writing skills (as per submitted report), oral presentation skills (as per class presentation) and progress on the project. These are evaluated by the Project Adviser and the Course Instructor."
+    "description": "Design and implementation of a significant piece of work: software, hardware or theory. In addition, emphasis on technical writing and oral communication skills. Students must have an abstract of their Senior Project, which is approved and signed by a Project Adviser, at the end of the second week of Fall classes. The project continues during two semesters; students must enroll in CIS 401 during the second semester. At the end of the first semester, students are required to submit an intermediate report and give a class presentation describing their project and progress. Grades are based on technical writing skills (as per submitted report), oral presentation skills (as per class presentation) and progress on the project. These are evaluated by the Project Adviser and the Course Instructor. Senior standing or permission of instructor.",
+    "id": "CIS-400",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 1.678,
+    "instructor_quality": 1.899,
+    "difficulty": 1.983,
+    "work_required": 2.287,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-400-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 175,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 12.0,
+            "end": 13.3,
+            "room": "CHEM 102"
+          },
+          {
+            "day": "T",
+            "start": 12.0,
+            "end": 13.3,
+            "room": "CHEM 102"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 1593,
+            "name": "Jonathan Michael Smith"
+          }
+        ],
+        "course_quality": 1.82,
+        "instructor_quality": 2.28,
+        "difficulty": 1.975,
+        "work_required": 2.32,
+        "associated_sections": []
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 401,
     "title": "Senior Project",
     "prereqs": ["CIS 400", "Senior standing or permission of instructor"],
-
     "description": "Continuation of CIS 400. Design and implementation of a significant piece of work: software, hardware or theory. Students are required to submit a final written report and give a final presentation and demonstration of their project. Grades are based on the report, the presentation and the satisfactory completion of the project. These are evaluated by the Project Advisor and the Course Instructor."
   },
-
   {
     "dept": "CIS",
     "number": 419,
-    "title": "Applied Machine Learnin",
+    "title": "Applied Machine Learning",
     "prereqs": ["CIS 121"],
-    "description": "Machine learning has been essential to the success of many recent technologies, including autonomous vehicles, search engines, genomics, automated medical diagnosis, image recognition, and social network analysis, among many others. This course will introduce the fundamental concepts and algorithms that enable computers to learn from experience, with an emphasis on their practical application to real problems. This course will introduce supervised learning (decision trees, logistic regression, support vector machines, Bayesian methods, neural networks and deep learning), unsupervised learning (clustering, dimensionality reduction), and reinforcement learning. Additionally, the course will discuss evaluation methodology and recent applications of machine learning, including large scale learning for big data and network analysis. If CIS 519/Introduction to Machine Learning is used to fulfill the CIS/MSE core requirement, then CIS 520/Machine Learning, cannot be used to fulfill the CIS/MSE core requirement, but can be used as a CIS elective. If CIS 520/Machine Learning is used to fulfill the CIS/MSE core requirement, then CIS 519/Introduction to Machine Learning, cannot be used to fulfill the CIS/MSE core requirement, but can be used as a CIS elective."
+    "description": "Machine learning has been essential to the success of many recent technologies, including autonomous vehicles, search engines, genomics, automated medical diagnosis, image recognition, and social network analysis, among many others. This course will introduce the fundamental concepts and algorithms that enable computers to learn from experience, with an emphasis on their practical application to real problems. This course will introduce supervised learning (decision trees, logistic regression, support vector machines, Bayesian methods, neural networks and deep learning), unsupervised learning (clustering, dimensionality reduction), and reinforcement learning. Additionally, the course will discuss evaluation methodology and recent applications of machine learning, including large scale learning for big data and network analysis.",
+    "id": "CIS-419",
+    "semester": "2021C",
+    "prerequisites": "CIS 121",
+    "course_quality": 2.245,
+    "instructor_quality": 2.461,
+    "difficulty": 3.315,
+    "work_required": 3.341,
+    "crosslistings": ["CIS-519"],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-419-401",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 60,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "LEVH 101"
+          },
+          {
+            "day": "W",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "LEVH 101"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 12145,
+            "name": "Dinesh Jayaraman"
+          }
+        ],
+        "course_quality": 2.16,
+        "instructor_quality": 2.84,
+        "difficulty": 3.13,
+        "work_required": 3.29,
+        "associated_sections": []
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 421,
-    "title": "Artificial Intelligenc",
+    "title": "Artificial Integlligence",
     "prereqs": ["CIS 121", "ESE 301", "STAT 430 recommended"],
-
-    "description": "This course investigates algorithms to implement resource-limited knowledge-based agents which sense and act in the world. Topics include, search, machine learning, probabilistic reasoning, natural language processing, knowledge representation and logic. After a brief introduction to the language, programming assignments will be in Python."
+    "description": "This course investigates algorithms to implement resource-limited knowledge-based agents which sense and act in the world. Topics include, search, machine learning, probabilistic reasoning, natural language processing, knowledge representation and logic. After a brief introduction to the language, programming assignments wil l be in Python.",
+    "id": "CIS-421",
+    "semester": "2021C",
+    "prerequisites": "CIS 121 and ESE 301 or STAT 430",
+    "course_quality": 2.96,
+    "instructor_quality": 2.988,
+    "difficulty": 2.378,
+    "work_required": 2.518,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-421-401",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 60,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 12.0,
+            "end": 13.3,
+            "room": "LEVH 101"
+          },
+          {
+            "day": "T",
+            "start": 12.0,
+            "end": 13.3,
+            "room": "LEVH 101"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 1771,
+            "name": "Christopher Callison-Burch"
+          }
+        ],
+        "course_quality": 2.925,
+        "instructor_quality": 3.002,
+        "difficulty": 2.398,
+        "work_required": 2.532,
+        "associated_sections": []
+      },
+      {
+        "id": "CIS-421-402",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 72,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 8.3,
+            "end": 10.0,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "W",
+            "start": 8.3,
+            "end": 10.0,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 1771,
+            "name": "Christopher Callison-Burch"
+          }
+        ],
+        "course_quality": 2.925,
+        "instructor_quality": 3.002,
+        "difficulty": 2.398,
+        "work_required": 2.532,
+        "associated_sections": []
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 436,
-    "title": "Introduction to Computational Biology and Biological Modeling",
+    "title": "Introduction to Computational Biology & Biological Modeling",
     "prereqs": [
       "200 level or higher biology courses",
       "MATH 104",
       "Intro statistics",
       "Probability theory and linear algebra highly recommended"
     ],
-    "description": "The goal of this course is to develop a deeper understanding of techniques and concepts used in Computational Biology. The course will strive to focus on a small set of approaches to gain both theoretical and practical understanding of the methods. We will aim to cover practical issues such as programming and the use of programs, as well as theoretical issues such as algorithm design, statistical data analysis, theory of algorithms and statistics. This course WILL NOT provide a broad survey of the field nor teach specific tools but focus on a deep understanding of a small set of topics. We will discuss string algorithms, hidden markov models, dimension reduction, and machine learning (or phylogeny estimation) for biomedical problems."
+    "description": "The goal of this course is to develop a deeper understanding of techniques and concepts used in Computational Biology. The course will strive to focus on a small set of approaches to gain both theoretical and practical understanding of the methods. We will aim to cover practical issues such as programming and the use of programs, as well as theoretical issues such as algorithm design, statistical data analysis, theory of algorithms and statistics. This course WILL NOT provide a broad survey of the field nor teach specific tools but focus on a deep understanding of a small set of topics. We will discuss string algorithms, hidden markov models, dimension reduction, and machine learning (or phylogeny estimation) for biomedical problems. Prerequisite: Probability theory and linear algebra are highly recommended.",
+    "id": "CIS-436",
+    "semester": "2021C",
+    "prerequisites": "BIOL 446 AND MATH 104",
+    "course_quality": 2.762,
+    "instructor_quality": 3.01,
+    "difficulty": 2.755,
+    "work_required": 2.568,
+    "crosslistings": ["BIOL-437"],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      },
+      {
+        "id": "MDN@SAS",
+        "code": "MDN",
+        "school": "SAS",
+        "semester": "2021C",
+        "name": "Natural Science & Math Sector"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-436-401",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 5,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "FAGN 218"
+          },
+          {
+            "day": "W",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "FAGN 218"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 98,
+            "name": "Iain Mathieson"
+          }
+        ],
+        "course_quality": 2.955,
+        "instructor_quality": 3.185,
+        "difficulty": 2.675,
+        "work_required": 2.76,
+        "associated_sections": []
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 441,
     "title": "Embedded Software for Life-Critical Application",
-    "description": "The goal of this course is to give students greater design and implementation experience in embedded software development and to teach them how to model, design, verify, and validate safety critical systems in a principled manner. Students will learn the principles, methods, and techniques for building life-critical embedded systems, ranging from requirements and models to design, analysis, optimization, implementation, and validation. Topics will include modeling and analysis methods and tools, real-time programming paradigms and languages, distributed real-time systems, global time, time-triggered communications, assurance case, software architecture, evidence-based certification, testing, verification, and validation. The course will include a series of projects that implements life-critical embedded systems (e.g., pacemaker, infusion pumps, closed-loop medical devices)."
+    "description": "The goal of this course is to give students greater design and implementation experience in embedded software development and to teach them how to model, design, verify, and validate safety critical systems in a principled manner. Students will learn the principles, methods, and techniques for building life-critical embedded systems, ranging from requirements and models to design, analysis, optimization, implementation, and validation. Topics will include modeling and analysis methods and tools, real-time programming paradigms and languages, distributed real-time systems, global time, time-triggered communications, assurance case, software architecture, evidence-based certification, testing, verification, and validation. The course will include a series of projects that implements life-critical embedded systems (e.g., pacemaker, infusion pumps, closed-loop medical devices).",
+    "id": "CIS-441",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 1.607,
+    "instructor_quality": 1.737,
+    "difficulty": 2.305,
+    "work_required": 2.377,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": []
   },
-
   {
     "dept": "CIS",
     "number": 450,
     "title": "Database and Information Systems",
     "prereqs": ["CIS 160", "CIS 121"],
-
-    "description": "This course provides an introduction to the broad field of database and information systems, covering a variety of topicsrelating to structured data, ranging from data modeling to logical foundationsand popular languages, to system implementations. Wewill study the theory ofrelational and XML data design; the basics of query languages; efficientstorage of data, execution of queries and query optimization; transactions andupdates; web-database development; and \"big data\" and NoSQL systems."
+    "description": "This course provides an introduction to the broad field of database and information systems, covering a variety of topics relating to structured data, ranging from data modeling to logical foundations and popular languages, to system implementations. We will study the theory of relational and XML data design; the basics of query languages; efficient storage of data, execution of queries and query optimization; transactions and updates; web-database development; and \"big data\" and NoSQL systems. The course assumes mathematical and programming experience equivalent to CIS160 and CIS121.",
+    "id": "CIS-450",
+    "semester": "2021C",
+    "prerequisites": "CIS 121, 160",
+    "course_quality": 2.545,
+    "instructor_quality": 2.693,
+    "difficulty": 2.347,
+    "work_required": 2.522,
+    "crosslistings": ["CIS-550"],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-450-401",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 75,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 17.15,
+            "end": 18.45,
+            "room": "TOWN 100"
+          },
+          {
+            "day": "W",
+            "start": 17.15,
+            "end": 18.45,
+            "room": "TOWN 100"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 130,
+            "name": "Val Breazu Tannen"
+          }
+        ],
+        "course_quality": 2.05,
+        "instructor_quality": 2.14,
+        "difficulty": 2.29,
+        "work_required": 2.68,
+        "associated_sections": [
+          {
+            "id": "CIS-450-402",
+            "activity": "REC"
+          },
+          {
+            "id": "CIS-450-403",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-450-402",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 50,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 12.0,
+            "end": 13.3,
+            "room": "SKIR AUD"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 130,
+            "name": "Val Breazu Tannen"
+          }
+        ],
+        "course_quality": 2.05,
+        "instructor_quality": 2.14,
+        "difficulty": 2.29,
+        "work_required": 2.68,
+        "associated_sections": [
+          {
+            "id": "CIS-450-401",
+            "activity": "LEC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-450-403",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 50,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 17.15,
+            "end": 18.45,
+            "room": "LEVH 101"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 130,
+            "name": "Val Breazu Tannen"
+          }
+        ],
+        "course_quality": 2.05,
+        "instructor_quality": 2.14,
+        "difficulty": 2.29,
+        "work_required": 2.68,
+        "associated_sections": [
+          {
+            "id": "CIS-450-401",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 455,
@@ -272,10 +5094,60 @@
       "Familiarity with threads and concurrency",
       "Strong Java programming"
     ],
-
-    "description": "This course focuses on the challenges encountered in building Internet and web systems: scalability, interoperability (of data and code), security and fault tolerance, consistency models, and location of resources, services, and data. We will examine how XML standards enable information exchange; how web services support cross-platform interoperability (and what their limitations are); how to build high-performance application servers; how \"cloud computing\" services work; how to perform Akamai-like content distribution; and how to provide transaction support in distributed environments. We will study techniques for locating machines, resources, and data (including directory systems, information retrieval indexing, ranking, and web search); and we will investigate how different architectures support scalability (and the issues they face). We will also examine ideas that have been proposed for tomorrow's Web, and we will see some of the challenges, research directions, and potential pitfalls. An important goal of the course is not simply to discuss issues and solutions, but to provide hands-on experience with a substantial implementation project. This semester's project will be a peer-to-peer implementation of a Google-style search engine, including distributed, scalable crawling; indexing with ranking; and even PageRank. As a side-effect of the material of this course, you will learn about some aspects of large-scale software development: assimilating large APIs, thinking about modularity, reading other people's code, managing versions, debugging, etc."
+    "description": "This course focuses on the challenges encountered in building Internet and web systems: scalability, interoperability (of data and code), security and fault tolerance, consistency models, and location of resources, services, and data. We will examine how XML standards enable information exchange; how web services support cross-platform interoperability (and what their limitations are); how to build high-performance application servers; how \"cloud computing\" services work; how to perform Akamai-like content distribution; and how to provide transaction support in distributed environments. We will study techniques for locating machines, resources, and data (including directory systems, information retrieval indexing, ranking, and web search); and we will investigate how different architectures support scalability (and the issues they face). We will also examine ideas that have been proposed for tomorrow's Web, and we will see some of the challenges, research directions, and potential pitfalls. An important goal of the course is not simply to discuss issues and solutions, but to provide hands-on experience with a substantial implementation project. This semester's project will be a peer-to-peer implementation of a Googe-style search engine, including distributed, scalable crawling; indexing with ranking; and even PageRank. As a side-effect of the material of this course you will learn about some aspects of large-scale software development assimilating large APIs. Prerequisite: Familiarity with threads and concurrency, strong Java programming skills.",
+    "id": "CIS-455",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 3.193,
+    "instructor_quality": 3.241,
+    "difficulty": 3.626,
+    "work_required": 3.884,
+    "crosslistings": ["CIS-555"],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-455-401",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 24,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "TOWN 313"
+          },
+          {
+            "day": "W",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "TOWN 313"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 15210,
+            "name": "VIncent F Liu"
+          }
+        ],
+        "course_quality": null,
+        "instructor_quality": null,
+        "difficulty": null,
+        "work_required": null,
+        "associated_sections": []
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 460,
@@ -285,9 +5157,101 @@
       "CIS 121",
       "CIS 240 is useful, but is not a requirement"
     ],
-    "description": "This course focuses on programming the essential mathematical and geometric concepts underlying modern computer graphics. Using 3D interactive implementations, it covers fundamental topics such as mesh data structures, transformation sequences, rendering algorithms, and curve interpolation for animation. Students are also introduced to two programming languages widely used in the computer graphics industry: C++ and GLSL. The curriculum is heavily project-based, and culminates in a group project focused on building an interactive first-person world exploration application using the various real-time interaction and rendering algorithms learned throughout the semester."
+    "description": "This course focuses on programming the essential mathematical and geometric concepts underlying modern computer graphics. Using 3D interactive implementations, it covers fundamental topics such as mesh data structures, transformation sequences, rendering algorithms, and curve interpolation for animation. Students are also introduced to two programming languages widely used in the computer graphics industry: C++ and GLSL. The curriculum is heavily project-based, and culminates in a group project focused on building an interactive first-person world exploration application using the various real-time interaction and rendering algorithms learned throughout the semester.",
+    "id": "CIS-460",
+    "semester": "2021C",
+    "prerequisites": "CIS 120, 121, 240",
+    "course_quality": 2.933,
+    "instructor_quality": 2.931,
+    "difficulty": 3.14,
+    "work_required": 3.396,
+    "crosslistings": ["CIS-560"],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-460-401",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 40,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "M",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "MOOR 216"
+          },
+          {
+            "day": "W",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "MOOR 216"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 5,
+            "name": "Adam D Mally"
+          }
+        ],
+        "course_quality": 3.407,
+        "instructor_quality": 3.496,
+        "difficulty": 3.483,
+        "work_required": 3.724,
+        "associated_sections": [
+          {
+            "id": "CIS-460-402",
+            "activity": "REC"
+          }
+        ]
+      },
+      {
+        "id": "CIS-460-402",
+        "status": "O",
+        "activity": "REC",
+        "credits": 0.0,
+        "capacity": 40,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "F",
+            "start": 13.45,
+            "end": 15.15,
+            "room": "MCNB 150"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 3,
+            "name": "Norman I Badler"
+          },
+          {
+            "id": 5,
+            "name": "Adam D Mally"
+          }
+        ],
+        "course_quality": 2.98,
+        "instructor_quality": 3.02,
+        "difficulty": 3.149,
+        "work_required": 3.42,
+        "associated_sections": [
+          {
+            "id": "CIS-460-401",
+            "activity": "LEC"
+          }
+        ]
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 461,
@@ -298,7 +5262,6 @@
     ],
     "description": "This course is designed to provide a comprehensive  overview to computer graphics techniques in 3D modeling, image synthesis, and rendering. Topics   cover: geometric transformations, geometric algorithms, software systems, 3D object models (surface, volume and implicit), visible surface algorithms, image synthesis, shading, mapping, ray tracing, radiosity, global illumination, sampling, anti-aliasing, Monte Carlo path tracing, and photonmapping. Prerequisites: A working knowledge of C++ programming isrequired (one year programming experience in general). Knowledge of vector geometry is useful."
   },
-
   {
     "dept": "CIS",
     "number": 462,
@@ -308,9 +5271,60 @@
       "Curves and surfaces, dynamical systems (e.g. 2nd order mass-spring-damper systems)",
       "3D computer graphics has also been assumed in the preparation of the course materials."
     ],
-    "description": "This course covers core subject matter common to the fields of robotics, character animation and embodied intelligent agents. The intent of the course is to provide the student with a solid technical foundation for developing, animating and controlling articulated systems used in interactive computer games, virtual reality simulations and high-end animation applications. The course balances theory with practice by \"looking under the hood\" of current animation systems and authoring tools and exams the technologies and techniques used from both a computer science and engineering perspective. Topics covered include: geometric coordinate systems and transformations; quaternions; parametric curves and surfaces; forward and inverse kinematics; dynamic systems and control; computer simulation; keyframe, motion capture and procedural animation; behavior-based animation and control; facial animation; smart characters and intelligent agents."
+    "description": "This course covers core subject matter common to the fields of robotics, character animation and embodied intelligent agents. The intent of the course is to provide the student with a solid technical foundation for developing, animating and controlling articulated systems used in interactive computer game virtual reality simulations and high-end animation applications. The course balances theory with practice by \"looking under the hood\" of current animation systems and authoring tools and exams the technologies and techniques used from both a computer science and engineering perspective. Topics covered include: geometric coordinate systems and transformations; quaternions; parametric curves and surfaces; forward and inverse kinematics; dynamic systems and control; computer simulation; keyframe, motion capture and procedural animation; behavior-based animation and control; facial animation; smart characters and intelligent agents. Prerequisite: Previous exposure to major concepts inn linear algebra (i.e. vector matrix math), curves and surfaces, dynamical systems (e.g. 2nd order mass-spring-damper systems) and 3D computer graphics has also been assumed in the preparation of the course materials.",
+    "id": "CIS-462",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.831,
+    "instructor_quality": 2.952,
+    "difficulty": 3.064,
+    "work_required": 2.912,
+    "crosslistings": ["CIS-562"],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-462-401",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 24,
+        "semester": "2021C",
+        "meetings": [
+          {
+            "day": "R",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "WLNT 401B"
+          },
+          {
+            "day": "T",
+            "start": 15.3,
+            "end": 17.0,
+            "room": "WLNT 401B"
+          }
+        ],
+        "instructors": [
+          {
+            "id": 102,
+            "name": "Stephen Lane"
+          }
+        ],
+        "course_quality": 2.831,
+        "instructor_quality": 2.952,
+        "difficulty": 3.064,
+        "work_required": 2.912,
+        "associated_sections": []
+      }
+    ]
   },
-
   {
     "dept": "CIS",
     "number": 482,
@@ -318,12 +5332,50 @@
     "prereqs": ["CIS 160"],
     "description": "Logic has been called the calculus of computer science as it plays a fundamental role in computer science, similar to that played by calculus in the physical sciences and traditional engineering disciplines. Indeed, logic is useful in areas of computer science as disparate as architecture (logic gates), software engineering (specification and verification), programming languages (semantics, logic programming), databases (relational algebra and SQL), artificial intelligence (automatic theorem proving), algorithms (complexity and expressiveness), and theory of computation (general notions of computability). CIS 482 provides the students with a thorough introduction to mathematical logic, covering in depth the topics of syntax, semantics, decision procedures, formal proof systems, and soundness and completeness for both propositional and first-order logic. The material is taught from a computer science perspective, with an emphasis on algorithms, computational complexity, and tools. Projects will focus on problems in circuit design, specification and analysis of protocols, and query evaluation in databases."
   },
-
   {
     "dept": "CIS",
     "number": 497,
-    "title": "Senior Project (DMD Students only)",
+    "title": "DMD Senior Project",
     "prereqs": "Senior standing or permission of instructor",
-    "description": "The goal of this course is to provide an opportunity for seniors to define, design, and execute a project of your own choosing that demonstrates the technical skills and abilities that you have acquired during your 4 years as undergraduates. Evaluation is based on selecting an interesting topic, completing appropriate research on the state of the art in that area, communicating your objectives in writing and in presentations, accurately estimating what resources will be required to complete your chosen task, coding necessary functionality, and executing your plan."
+    "description": "The goal of this course is to provide an opportunity for seniors to define, desand execute a project of your own choosing that demonstrates the technical skiland abilities that you have acquired during your 4 years as undergraduates. Evaluation is based on selecting an interesting topic, completing appropriate research on the state of the art in that area, communicating your objectives i writing and in presentations, accurately estimating what resources will be reqto complete your chosen task, coding necessary functionality, and executing your plan. Senior Standing or Permission of the instructor.",
+    "id": "CIS-497",
+    "semester": "2021C",
+    "prerequisites": "",
+    "course_quality": 2.864,
+    "instructor_quality": 3.23,
+    "difficulty": 2.83,
+    "work_required": 3.087,
+    "crosslistings": [],
+    "requirements": [
+      {
+        "id": "ENG@SEAS",
+        "code": "ENG",
+        "school": "SEAS",
+        "semester": "2021C",
+        "name": "Engineering"
+      }
+    ],
+    "sections": [
+      {
+        "id": "CIS-497-001",
+        "status": "O",
+        "activity": "LEC",
+        "credits": 1.0,
+        "capacity": 30,
+        "semester": "2021C",
+        "meetings": [],
+        "instructors": [
+          {
+            "id": 3,
+            "name": "Norman I Badler"
+          }
+        ],
+        "course_quality": 2.872,
+        "instructor_quality": 3.115,
+        "difficulty": 2.872,
+        "work_required": 3.147,
+        "associated_sections": []
+      }
+    ]
   }
 ]

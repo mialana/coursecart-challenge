@@ -5,13 +5,14 @@ export default (props) => {
   const [searchInput, setSearchInput] = useState("");
   const [searchOption, setSearchOption] = useState(0);
 
-  function setSearchOptionState(input) {
-    setSearchOption(input);
-  }
-
   useEffect(() => {
     courseSearch(searchInput);
   }, [searchOption]);
+
+
+  function setSearchOptionState(input) {
+    setSearchOption(input);
+  }
 
   function courseSearch(input) {
     setSearchInput(input);
@@ -146,14 +147,14 @@ export default (props) => {
                 prereqsArray = [...prereqsArray, ...allNumLengths];
               }
 
-              const letters = prereq.replace(/[^a-zA-Z0-9]/gm, "");
+              const characters = prereq.replace(/[^a-zA-Z0-9]/gm, "");
               var allLengths = [],
                 k;
-              for (k = 0; k < letters.length; k++) {
+              for (k = 0; k < characters.length; k++) {
                 var makeString = "",
                   l;
                 for (l = 0; l < k; l++) {
-                  makeString = makeString + letters.charAt(l).toLowerCase();
+                  makeString = makeString + characters.charAt(l).toLowerCase();
                 }
                 allLengths = [...allLengths, makeString];
               }

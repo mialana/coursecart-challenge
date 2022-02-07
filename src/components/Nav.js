@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default () => (
+export default () => {
+  return (
   <div style={{
     width: '100%',
     padding: '0 1rem',
@@ -8,4 +9,5 @@ export default () => (
   }}>
     <h2>Penn Course Cart</h2>
   </div>
-)
+  )
+}

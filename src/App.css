@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.course-box {
+    display: flex;
+    flex-direction: horizontal;
+    padding: 0.3rem;
+    font-size: 12px;
+}
+
+.select-button {
+    margin-left: 0.3rem;
+}
+
+.is-selected {
+    background-color: grey;
+    margin: 1rem;
+}
+
+.not-selected {
+    margin: 1rem;
+}
+
+.cart-button {
+    width: 50%
+}
+
+.cart-png {
+    width: 10%
+}
+
+#course-component.cart {
+    display: none
+}
+
+#cart-component.courses {
+    display: none
+}
+
+/* border: "1px solid rgba(0, 0, 0, 0.1)",
+        padding: "1rem",
+        marginBottom: "1.5rem",
+        borderRadius: "4px", */
