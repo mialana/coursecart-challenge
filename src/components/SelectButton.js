@@ -1,3 +1,9 @@
+/* 
+- handles selections buttons for course
+- contains if statements that separate courses that only have one
+  section and courses that have multiple
+*/
+
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 

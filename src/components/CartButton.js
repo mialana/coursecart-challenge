@@ -1,3 +1,8 @@
+/* 
+- handles cart button
+- changes appearance (number amount) when user chooses a course
+*/
+
 import React, { useContext } from "react";
 import Cart from "./imgs/Cart.png";
 import { GlobalContext } from "../context/GlobalState";

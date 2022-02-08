@@ -1,3 +1,13 @@
+/* 
+- global function that is called in PrintCourses.
+- handles window that appears when a course is clicked 
+- loops through data to detect whether a course has any of the given features:
+  - Days of week and time of day of course sections
+  - Course rating
+  - Prerequisites
+  - Description
+*/
+
 import React from "react";
 
 export function showDetails(course, lecSections) {

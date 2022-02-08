@@ -1,3 +1,9 @@
+/* 
+- component that filters results based on certain options when selected
+- utilizes both allState and courses state variables, but only sets 
+  allState value to ensure there is a copy of the overall data set at all times
+*/
+
 import React, { useState } from "react";
 
 export default (props) => {

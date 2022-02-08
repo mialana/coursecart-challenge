@@ -1,3 +1,12 @@
+/*
+- contains main functionality for searching through courses
+- handles special cases:
+    - if the user searches a course by concatenating both the 
+    dept and number (i.e. cis110)
+    - if the user enters > 1 word into search bar
+    - if the user enters words out of order
+*/
+
 import React, { useEffect, useState } from "react";
 import SearchOptions from "./SearchOptions";
 import { searchIncludes } from "../functions/SearchResults";

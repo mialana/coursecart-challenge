@@ -1,3 +1,20 @@
+/* 
+- main hub that handles all of printing for courses and calls 
+  other components when necesssary
+- handles the detection of more than one section of the same course,
+  and passes that information to SelectButton
+- contains helper functions addToArray and handleRecitation
+  that add and remove items from global state variables selectedList 
+  and selectedRecitations
+    - contains functionality that ensures user can't pick more than
+    one section and more than one recitation of the same course
+- contains helper function handleSelection that updates state of
+  printed course depending on if selected, if opened, and 
+  if has available recitation
+- handles state variable that stores which details are open at any
+  given time
+*/
+
 import React, { useState, useContext, useEffect } from "react";
 import { GlobalContext } from "../context/GlobalState";
 import { RecitationContext } from "../context/RecitationState";
@@ -164,9 +181,6 @@ export default (props) => {
   }
 
   return courses.map((course) => {
-    if (`${course.dept}-${course.number}` === "CIS-240") {
-      console.log(course)
-    }
     var lecSections;
     if (course.hasOwnProperty("sections") && course.sections.length === 0) {
       lecSections = course.id;

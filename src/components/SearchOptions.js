@@ -1,3 +1,10 @@
+/* 
+- handles functionality that allows user to search based off of:
+  - courseID/Title
+  - prereqs
+  - keywords within description
+*/
+
 import React, { useState } from "react";
 
 export default (props) => {

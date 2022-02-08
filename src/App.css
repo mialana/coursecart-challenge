@@ -403,7 +403,9 @@ html {
 .cart-recitation {
     text-indent: 3rem;
     font-size: 12px;
-    
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .course-recitation {

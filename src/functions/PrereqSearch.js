@@ -1,3 +1,9 @@
+/* 
+- global function called in Search and SearchResults.
+- handles disection of user input into strings that can be detected
+  by react's Array.includes() features
+*/
+
 export function searchPrereqs(course, allData, amount) {
   var prereqsArray = [];
   course.prereqs.forEach((prereq) => {

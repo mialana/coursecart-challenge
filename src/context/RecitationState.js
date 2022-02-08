@@ -1,3 +1,8 @@
+/*
+- global state variable: selectedRecitations
+- contains functionality for adding to list and removing from list
+*/
+
 import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 
@@ -24,20 +29,12 @@ export const RecitationProvider = ({ children }) => {
     });
   }
 
-  function updateRecitationList(item) {
-    dispatch({
-      type: "UPDATE_RECITATION_LIST",
-      payload: item,
-    });
-  }
-
   return (
     <RecitationContext.Provider
       value={{
         selectedRecitations: state.selectedRecitations,
         addRecitationToList,
-        removeRecitationFromList,
-        updateRecitationList,
+        removeRecitationFromList
       }}
     >
       {children}

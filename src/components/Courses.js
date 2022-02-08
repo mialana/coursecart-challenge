@@ -1,3 +1,11 @@
+/* 
+- component that handles main setup of page
+- stores two state variables that are utilized in search and filter
+- allData state variable holds state after filter eliminations
+- courses state variable holds state after search eliminations
+- stores display variable that is triggered once cart or back button is clicked
+*/
+
 import React, { useState } from "react";
 import data from "../data/courses";
 import Search from "./Search";

@@ -1,3 +1,10 @@
+/* 
+- handles cart page
+- prints courses in order they were selected
+- prints recitations if they were selected
+- allows for user to both delete and rank their choices
+*/
+
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 import data from "../data/courses";
@@ -74,7 +81,7 @@ export default (props) => {
   function printRecitation(selection) {
     return selectedRecitations.map((rec) => {
       if (sliceRecitation(rec) === sliceCourse(selection)) {
-        return <div>{rec.id}</div>;
+        return <div>Rec: {rec.id}</div>;
       }
       return <div></div>;
     });
@@ -87,7 +94,7 @@ export default (props) => {
           <div className="identifier">
             <strong>{index + 1}.</strong>  {selection} {selectedObjects[index].title}
           </div>
-          <div className="cart-recitation"> {printRecitation(selection)}</div>
+          <div className="cart-recitation">{printRecitation(selection)}</div>
         </div>
         <div className="cart-buttons">
           <button

@@ -1,3 +1,12 @@
+/*
+- global state variable: selectedList
+= contains functionality for adding to list, removing from list, and completely
+  replacing list
+- (i'm not too familiar with using the react context api for global state handling.
+  i wanted to try using it briefly for this project, and will definitely continue
+  learning how to use it properly in the future.)
+*/
+
 import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 

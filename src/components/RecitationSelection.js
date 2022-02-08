@@ -1,3 +1,14 @@
+/* 
+- component that handles printing of recitation numbers if a course with
+  a recitation has been selected
+- checks selectedReciations global variable
+- changes state of individual recitation when selected
+- only allows selection of one recitation
+- briefly utilizes framer-motion npm packages 
+    - (honestly not super familiar with this package, but wanted to try
+      something new for this challenge)
+*/
+
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 import { RecitationContext } from "../context/RecitationState";

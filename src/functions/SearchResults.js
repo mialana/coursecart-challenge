@@ -1,3 +1,16 @@
+/* 
+- global function that is called in Search
+- handles prereq search functionality
+- compares search input to all prereqs based on dissected strings
+  from searchPrereqs
+- also handles special cases:
+    - if the user searches a prereq by concatenating both the 
+    dept and number (i.e. cis110)
+    - if the user enters > 1 word into search bar
+    - if the user enters words out of order
+
+*/
+
 import { searchPrereqs } from "../functions/PrereqSearch";
 
 export function searchIncludes(
