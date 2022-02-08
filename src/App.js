@@ -5,10 +5,12 @@ import Nav from "./components/Nav";
 import Courses from "./components/Courses";
 
 import { GlobalProvider } from "./context/GlobalState";
+import { RecitationProvider } from "./context/RecitationState";
 
 export default () => {
   return (
     <div className="App">
+      <RecitationProvider>
       <GlobalProvider>
         <Nav />
         <div
@@ -20,6 +22,7 @@ export default () => {
         ></div>
         <Courses />
       </GlobalProvider>
+      </RecitationProvider>
     </div>
   );
 };

@@ -1,10 +1,28 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
+import data from "../data/courses";
 
 export default (props) => {
   const { selectedList } = useContext(GlobalContext);
   const { updateList } = useContext(GlobalContext);
   const { removeItemFromList } = useContext(GlobalContext);
+
+  const selectedObjects = selectedList.map((selection) => {
+    const sliceSelection =
+      selection.match(/-/g).length === 2
+        ? selection.substring(
+            0,
+            selection.indexOf("-", 1 + selection.indexOf("-"))
+          )
+        : selection;
+    var index;
+    data.forEach((course, i) => {
+      if (`${course.dept}-${course.number}` === sliceSelection) {
+        index = course;
+      }
+    });
+    return index;
+  });
 
   function changePreferences(key, direction) {
     if (direction === "up") {
@@ -43,11 +61,11 @@ export default (props) => {
     return selectedList.map((selection, index) => (
       <div key={selection}>
         <div>
-          {index + 1} {selection}
+          {index + 1} {selection} {selectedObjects[index].title}
         </div>
         <button onClick={() => removeItemFromList(selection)}>X</button>
-        <button onClick={() => changePreferences(selection, "up")}> Up </button>
-        <button onClick={() => changePreferences(selection, "down")}> Down </button>
+        <button onClick={() => changePreferences(selection, "up")}>Up</button>
+        <button onClick={() => changePreferences(selection, "down")}>Down</button>
       </div>
     ));
   }

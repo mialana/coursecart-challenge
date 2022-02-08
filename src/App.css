@@ -17,8 +17,14 @@ html {
     font-size: 12px;
 }
 
-.select-button {
+#select-button.is-selected {
     margin-left: 0.3rem;
+    background-color: white
+}
+
+#select-button.not-selected {
+    margin-left: 0.3rem;
+    background-color: grey;
 }
 
 .is-selected {
@@ -44,6 +50,14 @@ html {
 
 #cart-component.courses {
     display: none
+}
+
+.recitation-selected {
+    background-color: darkgray;
+}
+
+.rec-not-selected {
+    color: white;
 }
 
 /* border: "1px solid rgba(0, 0, 0, 0.1)",

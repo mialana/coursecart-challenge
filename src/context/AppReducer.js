@@ -12,8 +12,25 @@ export default (state, action) => {
       };
     case "UPDATE_LIST":
       return {
-        selectedList: action.payload
-      }
+        selectedList: action.payload,
+      };
+
+    case "ADD_RECITATION":
+      return {
+        selectedRecitations: [...state.selectedRecitations, action.payload],
+      };
+
+    case "REMOVE_RECITATION":
+      return {
+        selectedRecitations: state.selectedRecitations.filter(
+          (item) => item !== action.payload
+        ),
+      };
+      
+    case "UPDATE_RECITATION_LIST":
+      return {
+        selectedRecitations: action.payload,
+      };
     default:
       return state;
   }

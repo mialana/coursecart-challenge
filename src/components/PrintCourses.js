@@ -1,20 +1,59 @@
 import React, { useState, useContext, useEffect } from "react";
 import { GlobalContext } from "../context/GlobalState";
+import { RecitationContext } from "../context/RecitationState";
 import { AnimatePresence, motion } from "framer-motion";
+import { showDetails } from "../functions/CourseDetails";
+import SelectButton from "./SelectButton";
+import RecitationSelection from "./RecitationSelection";
 
 export default (props) => {
   const [courses, setCourses] = useState(props.courses);
   const { selectedList } = useContext(GlobalContext);
   const { addItemToList } = useContext(GlobalContext);
   const { removeItemFromList } = useContext(GlobalContext);
-  const [descriptionOpen, setDescriptionOpen] = useState([]);
+  const [detailsOpen, setDetailsOpen] = useState([]);
+  const { selectedRecitations } = useContext(RecitationContext);
+  const { addRecitationToList } = useContext(RecitationContext);
+  const { removeRecitationFromList } = useContext(RecitationContext);
+
+  useEffect(() => {
+    console.log(selectedList);
+  }, [selectedList]);
+
+  useEffect(() => {
+    console.log(selectedRecitations);
+  }, [selectedRecitations]);
 
   useEffect(() => {
     const updatedCourses = props.courses;
     setCourses([...updatedCourses]);
   }, [props.courses]);
 
+  function sliceRecitation(recitation) {
+    return recitation.id.substring(
+      0,
+      recitation.id.indexOf("-", 1 + recitation.id.indexOf("-"))
+    );
+  }
+
+  function handleRecitation(recitation) {
+    const recitationSliced = sliceRecitation(recitation);
+    if (selectedRecitations.includes(recitation)) {
+      removeRecitationFromList(recitation);
+    } else if (
+      selectedRecitations.some((rec) => {
+        return sliceRecitation(rec) === recitationSliced;
+      })
+    ) {
+      return;
+    }
+    if (!selectedRecitations.includes(recitation)) {
+      addRecitationToList(recitation);
+    }
+  }
+
   function addToArray(key, array) {
+    console.log(selectedRecitations);
     if (array === "selected") {
       if (selectedList.includes(key)) {
         removeItemFromList(key);
@@ -22,62 +61,123 @@ export default (props) => {
         if (selectedList.length >= 7) {
           return;
         }
+        const sliceKey =
+          key.match(/-/g).length === 2
+            ? key.substring(0, key.indexOf("-", 1 + key.indexOf("-")))
+            : key;
+        if (
+          selectedList.some((course) => {
+            const sliceCourse =
+              course.match(/-/g).length === 2
+                ? course.substring(
+                    0,
+                    course.indexOf("-", 1 + course.indexOf("-"))
+                  )
+                : course;
+            return sliceCourse.includes(sliceKey);
+          })
+        ) {
+          return;
+        }
         addItemToList(key);
       }
-    } else if (array === "description") {
-      if (descriptionOpen.includes(key)) {
-        let removedDescription = descriptionOpen;
+    } else if (array === "details") {
+      if (detailsOpen.includes(key)) {
+        let removedDescription = detailsOpen;
         removedDescription = removedDescription.filter(
           (course) => course !== key
         );
-        setDescriptionOpen(removedDescription);
-      } else if (!descriptionOpen.includes(key)) {
-        let addedDescription = descriptionOpen;
+        setDetailsOpen(removedDescription);
+      } else if (!detailsOpen.includes(key)) {
+        let addedDescription = detailsOpen;
         addedDescription = [...addedDescription, key];
-        setDescriptionOpen(addedDescription);
+        setDetailsOpen(addedDescription);
       }
     }
   }
 
-  function handleSelection(key) {
-    if (selectedList.includes(key)) {
+  function handleSelection(lecSections) {
+    if (lecSections.length === 0) {
+      return;
+    }
+    if (!Array.isArray(lecSections)) {
+      if (selectedList.includes(lecSections)) {
+        return "is-selected";
+      }
+      return "not-selected";
+    }
+
+    if (
+      lecSections.some((section) => {
+        return selectedList.includes(section.id);
+      })
+    ) {
       return "is-selected";
     }
     return "not-selected";
   }
 
-  return courses.map(({ dept, number, title, description }, i) => (
-    <div
-      key={`${dept}-${number}`}
-      className={handleSelection(`${dept}-${number}`)}
-      onClick={() => addToArray(`${dept}-${number}`, "description")}
-    >
-      <div>
-        {dept} {number} {title}
-      </div>
-      <AnimatePresence>
-        {descriptionOpen.includes(`${dept}-${number}`) && (
-          <motion.div
-            className="course-details"
-            key={`${dept}-${number}`}
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 0.5 }}
-            exit={{ opacity: 0, height: 0 }}
-          >
-            {description}
-          </motion.div>
-        )}
-      </AnimatePresence>
+  return courses.map((course) => {
+    var lecSections;
+    if (course.hasOwnProperty("sections") && course.sections.length === 0) {
+      lecSections = course.id;
+    } else if (course.hasOwnProperty("sections")) {
+      lecSections = course.sections.filter(
+        (section) => section.activity === "LEC"
+      );
+    } else {
+      lecSections = `${course.dept}-${course.number}`;
+    }
 
-      <button
-        className="select-button"
-        onClick={(event) => {
-          event.stopPropagation();
-          addToArray(`${dept}-${number}`, "selected");
-        }}
+    const courseID = `${course.dept}-${course.number}`;
+
+    return (
+      <div
+        key={`${course.dept}-${course.number}`}
+        className={handleSelection(lecSections)}
+        onClick={() => addToArray(`${course.dept}-${course.number}`, "details")}
       >
-        O
-      </button>
-    </div>
-  ));
+        <div>
+          {course.dept} {course.number} {course.title}
+        </div>
+        <AnimatePresence>
+          {detailsOpen.includes(`${course.dept}-${course.number}`) && (
+            <motion.div
+              className="course-details"
+              key={`${course.dept}-${course.number}`}
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 0.5 }}
+              exit={{ opacity: 0, height: 0 }}
+            >
+              {showDetails(course, lecSections)}
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <SelectButton
+          lecSections={lecSections}
+          handleSelection={handleSelection}
+          addToArray={addToArray}
+        />
+
+        {selectedList.some((selection) => {
+          const sliceSelection =
+            selection.match(/-/g).length === 2
+              ? selection.substring(
+                  0,
+                  selection.indexOf("-", 1 + selection.indexOf("-"))
+                )
+              : selection;
+          return sliceSelection.includes(courseID);
+        }) && (
+          <RecitationSelection
+            course={course}
+            courseID={courseID}
+            sliceRecitation={sliceRecitation}
+            handleRecitation={handleRecitation}
+          />
+        )}
+      </div>
+    );
+  });
 };

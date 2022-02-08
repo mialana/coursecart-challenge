@@ -2,7 +2,7 @@ import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 
 const initialState = {
-  selectedList: ["CIS-110", "CIS-120", "CIS-240"],
+  selectedList: []
 };
 
 export const GlobalContext = createContext(initialState);
