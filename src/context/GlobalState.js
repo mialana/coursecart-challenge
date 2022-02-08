@@ -11,7 +11,7 @@ import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 
 const initialState = {
-  selectedList: []
+  selectedList: [],
 };
 
 export const GlobalContext = createContext(initialState);
@@ -45,7 +45,7 @@ export const GlobalProvider = ({ children }) => {
         selectedList: state.selectedList,
         addItemToList,
         removeItemFromList,
-        updateList
+        updateList,
       }}
     >
       {children}

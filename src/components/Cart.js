@@ -92,7 +92,8 @@ export default (props) => {
       <div key={selection} className="cart-courses">
         <div className="course-recitation">
           <div className="identifier">
-            <strong>{index + 1}.</strong>  {selection} {selectedObjects[index].title}
+            <strong>{index + 1}.</strong> {selection}{" "}
+            {selectedObjects[index].title}
           </div>
           <div className="cart-recitation">{printRecitation(selection)}</div>
         </div>
@@ -128,7 +129,12 @@ export default (props) => {
       <div className="cart-window">
         <h1 className="receipt">Receipt</h1>
         <div>{printSelections()}</div>
-        <button className="back" onClick={() => props.setDisplayState("courses")}>Back</button>
+        <button
+          className="back"
+          onClick={() => props.setDisplayState("courses")}
+        >
+          Back
+        </button>
       </div>
     </div>
   );

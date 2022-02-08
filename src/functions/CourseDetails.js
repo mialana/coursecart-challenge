@@ -16,7 +16,9 @@ export function showDetails(course, lecSections) {
     <div className="details-overall">
       <div className="additional-info">
         {(!object[0].hasOwnProperty("id") && (
-          <div><p>No Additional Info Available</p></div>
+          <div>
+            <p>No Additional Info Available</p>
+          </div>
         )) ||
           (object[0].hasOwnProperty("id") &&
             object.map((obj) => {
@@ -54,12 +56,20 @@ export function showDetails(course, lecSections) {
 
         {course.hasOwnProperty("difficulty") && (
           <div>
-              <p><strong>Rating: </strong>{course.difficulty}</p>
+            <p>
+              <strong>Rating: </strong>
+              {course.difficulty}
+            </p>
           </div>
         )}
       </div>
 
-      <div className="description"><p><strong>Description: </strong></p>{course.description}</div>
+      <div className="description">
+        <p>
+          <strong>Description: </strong>
+        </p>
+        {course.description}
+      </div>
     </div>
   );
 }

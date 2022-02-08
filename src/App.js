@@ -10,9 +10,9 @@ export default () => {
   return (
     <div className="App">
       <RecitationProvider>
-      <GlobalProvider>
-        <Courses />
-      </GlobalProvider>
+        <GlobalProvider>
+          <Courses />
+        </GlobalProvider>
       </RecitationProvider>
     </div>
   );

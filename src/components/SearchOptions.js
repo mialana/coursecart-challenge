@@ -10,9 +10,9 @@ import React, { useState } from "react";
 export default (props) => {
   const [whichOption, setWhichOption] = useState("Search By Course ID");
 
-  function switchOption (input) {
-    setWhichOption(input.value)
-    props.setSearchOptionState(input.selectedIndex)
+  function switchOption(input) {
+    setWhichOption(input.value);
+    props.setSearchOptionState(input.selectedIndex);
   }
   return (
     <select

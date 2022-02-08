@@ -12,7 +12,7 @@ export default ({ lecSections, handleSelection, addToArray }) => {
 
   function sliceRecitation(recitation) {
     return recitation.id.substring(
-      (recitation.id.indexOf("-", 1 + recitation.id.indexOf("-")) + 1)
+      recitation.id.indexOf("-", 1 + recitation.id.indexOf("-")) + 1
     );
   }
 
@@ -43,8 +43,12 @@ export default ({ lecSections, handleSelection, addToArray }) => {
                 addToArray(section.id, "selected");
               }}
             >
-              {selectedList.includes(section.id) && <div>{sliceRecitation(section)} x</div>}
-              {!selectedList.includes(section.id) && <div>{sliceRecitation(section)} +</div>}
+              {selectedList.includes(section.id) && (
+                <div>{sliceRecitation(section)} x</div>
+              )}
+              {!selectedList.includes(section.id) && (
+                <div>{sliceRecitation(section)} +</div>
+              )}
             </button>
           );
         })}

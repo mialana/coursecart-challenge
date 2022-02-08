@@ -19,11 +19,11 @@ export default (props) => {
     courseSearch(searchInput);
   }, [searchOption]);
 
-  function setSearchOptionState (input) {
+  function setSearchOptionState(input) {
     setSearchOption(input);
   }
 
-  function courseSearch (input) {
+  function courseSearch(input) {
     setSearchInput(input);
 
     const lowercasedSearchInput = input.toLowerCase();

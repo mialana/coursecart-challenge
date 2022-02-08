@@ -20,10 +20,9 @@ export default (props) => {
   }
 
   return (
-      <button className="cart-overall" onClick={() => bringToCart()}>
-        <img src={Cart} alt="Shopping Cart" className="cart-png"></img>
-        <div className="cart-amount">{selectedList.length}</div>
-      </button>
-
+    <button className="cart-overall" onClick={() => bringToCart()}>
+      <img src={Cart} alt="Shopping Cart" className="cart-png"></img>
+      <div className="cart-amount">{selectedList.length}</div>
+    </button>
   );
 };

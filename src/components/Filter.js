@@ -60,7 +60,7 @@ export default (props) => {
       props.setAllDataState(filteredAllData);
     }
   }
-  
+
   return (
     <div className="filter">
       <select

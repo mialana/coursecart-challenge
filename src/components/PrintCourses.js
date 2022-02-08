@@ -123,7 +123,7 @@ export default (props) => {
         if (detailsOpen.includes(lecSections)) {
           return "is-opened";
         }
-        
+
         return "not-opened";
       }
       if (action === "recitation") {
@@ -137,7 +137,6 @@ export default (props) => {
           }
         }
         return "rec-not-available";
-        
       }
     }
     if (Array.isArray(lecSections)) {

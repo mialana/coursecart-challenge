@@ -7,7 +7,7 @@ import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 
 const initialState = {
-  selectedRecitations: []
+  selectedRecitations: [],
 };
 
 export const RecitationContext = createContext(initialState);
@@ -21,7 +21,7 @@ export const RecitationProvider = ({ children }) => {
       payload: item,
     });
   }
-  
+
   function removeRecitationFromList(item) {
     dispatch({
       type: "REMOVE_RECITATION",
@@ -34,7 +34,7 @@ export const RecitationProvider = ({ children }) => {
       value={{
         selectedRecitations: state.selectedRecitations,
         addRecitationToList,
-        removeRecitationFromList
+        removeRecitationFromList,
       }}
     >
       {children}

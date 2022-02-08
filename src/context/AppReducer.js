@@ -26,7 +26,7 @@ export default (state, action) => {
           (item) => item !== action.payload
         ),
       };
-      
+
     case "UPDATE_RECITATION_LIST":
       return {
         selectedRecitations: action.payload,
