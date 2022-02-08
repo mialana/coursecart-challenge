@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 import { RecitationContext } from "../context/RecitationState";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default (props) => {
   const { selectedList } = useContext(GlobalContext);
@@ -17,24 +18,34 @@ export default (props) => {
   function printRecitations() {
     if (props.course.hasOwnProperty("sections")) {
       if (Array.isArray(props.course.sections)) {
-        if (props.course.sections[0].hasOwnProperty("associated_sections")) {
-          if (Array.isArray(props.course.sections[0].associated_sections)) {
-            return props.course.sections[0].associated_sections.map(
-              (recitation) => {
-                return (
-                  <div
-                    key={recitation.id}
-                    onClick={(event) => {
-                      event.stopPropagation();
-                      props.handleRecitation(recitation);
-                    }}
-                    className={changeClass(recitation)}
-                  >
-                    {recitation.id}
-                  </div>
+        if (props.course.sections.length > 0) {
+          if (props.course.sections[0].hasOwnProperty("associated_sections")) {
+            if (Array.isArray(props.course.sections[0].associated_sections)) {
+              if (props.course.sections[0].associated_sections.length > 0) {
+                props.setHasRecitationState(props.course.id);
+                return props.course.sections[0].associated_sections.map(
+                  (recitation) => {
+                    return (
+                      <AnimatePresence key={recitation.id}>
+                        <motion.div
+                          key={recitation.id}
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: "auto", opacity: 0.5 }}
+                          exit={{ opacity: 0, height: 0 }}
+                          onClick={(event) => {
+                            event.stopPropagation();
+                            props.handleRecitation(recitation);
+                          }}
+                          className={changeClass(recitation)}
+                        >
+                          {recitation.id}
+                        </motion.div>
+                      </AnimatePresence>
+                    );
+                  }
                 );
               }
-            );
+            }
           }
         }
       }
@@ -42,7 +53,7 @@ export default (props) => {
   }
 
   return (
-    <div>
+    <div className="recitations">
       {selectedList.some((selection) => {
         const sliceSelection =
           selection.match(/-/g).length === 2

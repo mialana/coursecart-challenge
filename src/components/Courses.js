@@ -5,6 +5,7 @@ import Filter from "./Filter";
 import Cart from "./Cart";
 import CartButton from "./CartButton";
 import PrintCourses from "./PrintCourses";
+import Nav from "./Nav";
 
 export default () => {
   const [courses, setCourses] = useState(data);
@@ -27,13 +28,17 @@ export default () => {
   }
 
   return (
-    <div>
+    <div className="bottom">
       <div className={display} id="course-component">
-        <div>
+        <div className="nav-cart">
+          <div className="spacer"></div>
+          <Nav />
+
           <CartButton setDisplayState={setDisplayState} display={display} />
         </div>
-        <div>
+        <div className="search-filter">
           <Search setCoursesState={setCoursesState} allData={allData} />
+          <div className="spacer search-filter"></div>
           <Filter
             courses={courses}
             allData={allData}
@@ -42,7 +47,7 @@ export default () => {
           />
         </div>
         <div>
-          <PrintCourses courses={courses}/>
+          <PrintCourses courses={courses} />
         </div>
       </div>
       <div className={display} id="cart-component">

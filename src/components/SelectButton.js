@@ -4,19 +4,25 @@ import { GlobalContext } from "../context/GlobalState";
 export default ({ lecSections, handleSelection, addToArray }) => {
   const { selectedList } = useContext(GlobalContext);
 
+  function sliceRecitation(recitation) {
+    return recitation.id.substring(
+      (recitation.id.indexOf("-", 1 + recitation.id.indexOf("-")) + 1)
+    );
+  }
+
   return (
-    <div>
+    <div className="button-overall">
       {!Array.isArray(lecSections) && (
         <button
-          className={handleSelection(lecSections)}
+          className={handleSelection(lecSections, "select")}
           id="select-button"
           onClick={(event) => {
             event.stopPropagation();
             addToArray(lecSections, "selected");
           }}
         >
-          {selectedList.includes(lecSections) && <div>O</div>}
-          {!selectedList.includes(lecSections) && <div>X</div>}
+          {selectedList.includes(lecSections) && <div>x</div>}
+          {!selectedList.includes(lecSections) && <div>+</div>}
         </button>
       )}
       {Array.isArray(lecSections) &&
@@ -24,15 +30,15 @@ export default ({ lecSections, handleSelection, addToArray }) => {
           return (
             <button
               key={section.id}
-              className={handleSelection(section.id)}
+              className={handleSelection(section.id, "select")}
               id="select-button"
               onClick={(event) => {
                 event.stopPropagation();
                 addToArray(section.id, "selected");
               }}
             >
-              {selectedList.includes(section.id) && <div>X</div>}
-              {!selectedList.includes(section.id) && <div>O</div>}
+              {selectedList.includes(section.id) && <div>{sliceRecitation(section)} x</div>}
+              {!selectedList.includes(section.id) && <div>{sliceRecitation(section)} +</div>}
             </button>
           );
         })}

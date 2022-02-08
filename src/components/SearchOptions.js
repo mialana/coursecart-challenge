@@ -9,6 +9,7 @@ export default (props) => {
   }
   return (
     <select
+      className="search-options"
       name="Search Option"
       value={whichOption}
       onChange={(input) => switchOption(input.target)}

@@ -1,11 +1,14 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 import data from "../data/courses";
+import { RecitationContext } from "../context/RecitationState";
+import Nav from "./Nav";
 
 export default (props) => {
   const { selectedList } = useContext(GlobalContext);
   const { updateList } = useContext(GlobalContext);
   const { removeItemFromList } = useContext(GlobalContext);
+  const { selectedRecitations } = useContext(RecitationContext);
 
   const selectedObjects = selectedList.map((selection) => {
     const sliceSelection =
@@ -23,6 +26,17 @@ export default (props) => {
     });
     return index;
   });
+
+  function sliceCourse(course) {
+    return course.substring(0, course.indexOf("-", 1 + course.indexOf("-")));
+  }
+
+  function sliceRecitation(recitation) {
+    return recitation.id.substring(
+      0,
+      recitation.id.indexOf("-", 1 + recitation.id.indexOf("-"))
+    );
+  }
 
   function changePreferences(key, direction) {
     if (direction === "up") {
@@ -57,23 +71,58 @@ export default (props) => {
     }
   }
 
+  function printRecitation(selection) {
+    return selectedRecitations.map((rec) => {
+      if (sliceRecitation(rec) === sliceCourse(selection)) {
+        return <div>{rec.id}</div>;
+      }
+      return <div></div>;
+    });
+  }
+
   function printSelections() {
     return selectedList.map((selection, index) => (
-      <div key={selection}>
-        <div>
-          {index + 1} {selection} {selectedObjects[index].title}
+      <div key={selection} className="cart-courses">
+        <div className="course-recitation">
+          <div className="identifier">
+            <strong>{index + 1}.</strong>  {selection} {selectedObjects[index].title}
+          </div>
+          <div className="cart-recitation"> {printRecitation(selection)}</div>
         </div>
-        <button onClick={() => removeItemFromList(selection)}>X</button>
-        <button onClick={() => changePreferences(selection, "up")}>Up</button>
-        <button onClick={() => changePreferences(selection, "down")}>Down</button>
+        <div className="cart-buttons">
+          <button
+            className="delete"
+            onClick={() => removeItemFromList(selection)}
+          >
+            X
+          </button>
+          <button
+            className="up"
+            onClick={() => changePreferences(selection, "up")}
+          >
+            Up
+          </button>
+          <button
+            className="down"
+            onClick={() => changePreferences(selection, "down")}
+          >
+            Down
+          </button>
+        </div>
       </div>
     ));
   }
 
   return (
     <div>
-      <div>{printSelections()}</div>
-      <button onClick={() => props.setDisplayState("courses")}>Back</button>
+      <div className="cart-nav">
+        <Nav />
+      </div>
+      <div className="cart-window">
+        <h1 className="receipt">Receipt</h1>
+        <div>{printSelections()}</div>
+        <button className="back" onClick={() => props.setDisplayState("courses")}>Back</button>
+      </div>
     </div>
   );
 };

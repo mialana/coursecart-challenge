@@ -56,8 +56,9 @@ export default (props) => {
   }
   
   return (
-    <div>
+    <div className="filter">
       <select
+        className="filter-select"
         name="Filter"
         value={filterOption}
         onChange={(input) => courseFilter(input.target.value)}

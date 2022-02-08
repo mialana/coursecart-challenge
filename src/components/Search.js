@@ -79,8 +79,9 @@ export default (props) => {
   }
 
   return (
-    <div>
+    <div className="search">
       <input
+        className="search-input"
         name="SearchBar"
         value={searchInput}
         placeholder="Search"
