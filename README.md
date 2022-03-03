@@ -1,4 +1,83 @@
-# Penn Labs Frontend Challenge
+# penn-coursecart-application
+
+[Live Deployment of Website on Netlify](https://eager-wozniak-9da146.netlify.app)
+
+## Project Description / How to use:
+
+My goal in creating this application was to use a Javascript/React Framework to build an interface where users can explore computer science courses added at Penn, add them to a cart, and checkout. 
+
+To use the app, simply scroll through the listed course options (or alternatively, search for a desired course), click on a course to view it's description and additional information, and press the "+" button if you'd like to add it to your cart. For some courses, an additional feature will then pop up where you can also select a recitation option from the given list. 
+
+Lastly, you can click on the Cart Button in the top right corner, which will bring you to a page that shows you the receipt of your selected courses. On this page, you can sort the courses based on your preferences, as well as remove a course from your receipt. Press "BACK" if you'd like to return to the course selection page.
+
+Enjoy!
+
+(Note: This project was created for the frontend technical challenge of my application to Penn Labs, a a non-profit, student-run organization that provides software solutions used by over 16,000 members of the Penn community. Based off of the skills I demonstrated in this challenge, I was accepted out of 200+ applicants in the Spring 2022 application cycle.)
+
+## How to Run
+
+Method 1: [Live Deployment of Website on Netlify](https://eager-wozniak-9da146.netlify.app)
+
+Method 2: Run site locally using the following steps:
+
+First, download the .zip file for the master branch above.
+
+Then, make sure you have node and npm installed using:
+
+### `node -v`
+### `npm -v`
+Alternatively:
+### `yarn -v`
+
+If not installed, download the appropriate package on [this site](https://nodejs.org/en/download/)
+
+Now, navigate into the project directory and run:
+
+### `npm install`
+Alternatively:
+### `yarn`
+
+Followed by:
+
+### `npm run dev`
+Alternatively:
+### `yarn start`
+
+This will run the app in development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.
+
+## My Approach / Reflection
+
+This was actually one of the first times I've built and deployed a web app that used Javascript, not to mention React. As a result, my greatest challenge was self-learning both of these tools on the fly, doing my best to avoid bugs and potentially bad habits.
+
+Of course, I did not let this added difficulty get in the way of achieving my primary goal, which was to create a presentation interface as intuitive and user-friendly as possible.
+
+To do so, I implemented a variety of complex features to my app, many of which were not required in the original challenge description. These features include:
+
+UI/UX-related:
+- The ability to select recitations when available (this is a completely original feature that not a single other applicant attempted)
+- A search bar that is completely responsive to a variety of special cases, including if the user searches a course by concatenating both the dept and number (i.e. cis110), if the user enters > 1 word into search bar, and if the user enters words out of order.
+- The ability to sort courses in order of preference, as well as delete them completely from your cart.
+
+Technical Proficiency-related:
+- Global state handling using the React context api
+- Animations using the framer-motion npm package
+  - Before this challenge, I had no previous knowledge of either of this technical features. However, in order to challenge myself as much as possible, I utilized both briefly within my project, and will continue learning how to implement them properly in the future.
+
+If I had had more time to work on this application, I would have liked to implement an additional feature that removes courses from the available list based off of their class time conflicts with courses that have already been added to the cart. I'd also like to have cleaned up my code by using "lifting state up" more and being more conservative with my function initialization.
+
+### File Documentation
+
+Main source files (my contribution):
+src/App.js
+src/components (all)
+src/context (all)
+src/functions (all)
+src/index.css
+
+# Original Challenge Prompt
 
 > If you have already done this challenge, there's a [section below](#repeat-applicants) specifically for you.
 
@@ -130,3 +209,5 @@ In line with this, we want you to take your submission from when you last applie
 
 ## Submitting
 Follow the instructions on the Technical Challenge page for submission.
+
+
