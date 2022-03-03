@@ -6,13 +6,13 @@
 
 My goal in creating this application was to use a Javascript/React Framework to build an interface where users can explore computer science courses added at Penn, add them to a cart, and checkout. 
 
-To use the app, simply scroll through the listed course options (or alternatively, search for a desired course), click on a course to view it's description and additional information, and press the "+" button if you'd like to add it to your cart. For some courses, an additional feature will then pop up where you can also select a recitation option from the given list. 
+To use the app, simply scroll through the listed course options (or alternatively, search for a desired course), click on a course to view its description and additional information, and press the "+" button if you'd like to add it to your cart. For some courses, an additional feature will then pop up where you can also select a recitation option from the given list. 
 
 Lastly, you can click on the Cart Button in the top right corner, which will bring you to a page that shows you the receipt of your selected courses. On this page, you can sort the courses based on your preferences, as well as remove a course from your receipt. Press "BACK" if you'd like to return to the course selection page.
 
 Enjoy!
 
-(Note: This project was created for the frontend technical challenge of my application to Penn Labs, a a non-profit, student-run organization that provides software solutions used by over 16,000 members of the Penn community. Based off of the skills I demonstrated in this challenge, I was accepted out of 200+ applicants in the Spring 2022 application cycle.)
+(Note: This project was created for the frontend technical challenge of my application to Penn Labs, a non-profit, student-run organization that provides software solutions used by over 16,000 members of the Penn community. Based off of the skills I demonstrated in this challenge, I was accepted out of 200+ applicants in the Spring 2022 application cycle.)
 
 ## How to Run
 
@@ -64,18 +64,19 @@ UI/UX-related:
 Technical Proficiency-related:
 - Global state handling using the React context api
 - Animations using the framer-motion npm package
+
   - Before this challenge, I had no previous knowledge of either of this technical features. However, in order to challenge myself as much as possible, I utilized both briefly within my project, and will continue learning how to implement them properly in the future.
 
-If I had had more time to work on this application, I would have liked to implement an additional feature that removes courses from the available list based off of their class time conflicts with courses that have already been added to the cart. I'd also like to have cleaned up my code by using "lifting state up" more and being more conservative with my function initialization.
+If I had had more time to work on this application, I would have liked to implement an additional feature that removes courses from the available list based off of if their class time conflicts with courses that have already been added to the cart. I'd also like to have cleaned up my code by using "lifting state up" more and being more conservative with my function initialization.
 
 ### File Documentation
 
 Main source files (my contribution):
-src/App.js
-src/components (all)
-src/context (all)
-src/functions (all)
-src/index.css
+- src/App.js
+- src/components (all)
+- src/context (all)
+- src/functions (all)
+- src/index.css
 
 # Original Challenge Prompt
 
